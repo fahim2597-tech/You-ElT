@@ -1,4 +1,27 @@
-venv/
-__pycache__/
+# Environment
 .env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Airflow
 logs/
+airflow.cfg
+webserver_config.py
+
+# Database
+postgres_data/
+pgdata/
+
+# Docker
+*.pid
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
