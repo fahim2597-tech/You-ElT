@@ -7,7 +7,8 @@ checks for yt_api:
       likes_count_greater_than_vid_views query: |
         SELECT COUNT(*) 
         FROM yt_api 
-        WHERE "Likes_Count" > "Video_Views"
+        WHERE "Video_Views" > 0
+        AND "Likes_Count" > "Video_Views"
 
   - comments_count_greater_than_vid_views = 0:
       name: Check for Comments_Count greater than Video_Views
