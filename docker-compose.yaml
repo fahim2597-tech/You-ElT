@@ -46,13 +46,12 @@
 ---
 x-airflow-common:
   &airflow-common
-
-  build:
-    context: .
-    dockerfile: dockerfile
-
-  image: airflow/yt-elt:latest
-
+  # Use custom image that builds on top of default airflow image (currently; Default: apache/airflow:2.9.2)
+  # Image stored on Dockerhub
+  image: ${DOCKERHUB_NAMESPACE}/${DOCKERHUB_REPOSITORY}:latest
+  # Use the .env file to read the connection params and variables - SWITCH THIS OFF WHEN USING GITHUB ACTIONS
+  # env_file:
+  #   - .env
   environment:
     &airflow-common-env
     # Set executor to CeleryExecutor 
@@ -84,7 +83,8 @@ x-airflow-common:
     AIRFLOW_CONN_POSTGRES_DB_YT_ELT: 'postgresql://${ELT_DATABASE_USERNAME}:${ELT_DATABASE_PASSWORD}@${POSTGRES_CONN_HOST}:${POSTGRES_CONN_PORT}/${ELT_DATABASE_NAME}'
     # Variables can be written as follows: 
     # AIRFLOW_VAR_{VARIABLE_NAME}
-
+    AIRFLOW_VAR_API_KEY: ${API_KEY}
+    AIRFLOW_VAR_CHANNEL_HANDLE: ${CHANNEL_HANDLE}
     # Postgres databases environment variables - Needed for integration and data quality tests
     ELT_DATABASE_NAME: ${ELT_DATABASE_NAME}
     ELT_DATABASE_USERNAME: ${ELT_DATABASE_USERNAME}
@@ -130,13 +130,13 @@ services:
       - POSTGRES_CONN_HOST=${POSTGRES_CONN_HOST}
       - POSTGRES_CONN_PORT=${POSTGRES_CONN_PORT}
     ports:
-      - 5433:5434
+      - 5432:5432
     volumes:
       - postgres-db-volume:/var/lib/postgresql/data
       - ./docker/postgres/init-multiple-databases.sh:/docker-entrypoint-initdb.d/init-multiple-databases.sh
     # Test connection to 1 of 3 dbs, the metadata db in this case
     healthcheck:
-  test: ["CMD", "curl", "--fail", "http://localhost:8080/api/v2/monitor/health"]
+      test: ["CMD", "pg_isready", "-U", "${POSTGRES_CONN_USERNAME}", "-d", "${METADATA_DATABASE_NAME}"]
       interval: 10s
       retries: 5
       start_period: 5s
@@ -162,7 +162,7 @@ services:
     command: webserver
     container_name: airflow-webserver
     ports:
-      - "8085:8080"
+      - "8080:8080"
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
       interval: 30s
