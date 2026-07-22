@@ -25,3 +25,4 @@ pgdata/
 # OS
 .DS_Store
 Thumbs.db
+airflow_backup.sql
