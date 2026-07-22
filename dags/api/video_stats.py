@@ -52,6 +52,7 @@ def get_playlist_id():
         
 
 @task
+API_KEY = Variable.get("API_KEY")
 def get_video_ids(playlistId):
 
     video_ids = []
@@ -91,6 +92,7 @@ def get_video_ids(playlistId):
 
 
 @task
+API_KEY = Variable.get("API_KEY")
 def extract_video_data(video_ids):
 
     extracted_data = []
