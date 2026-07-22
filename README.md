@@ -1,85 +1,284 @@
-# **Youtube API - ELT**
+# YouTube ELT Pipeline 🚀
 
-## **Architecture** 
+A complete Data Engineering ELT pipeline that extracts YouTube channel data using YouTube Data API, processes data with Apache Airflow, stores data in PostgreSQL Data Warehouse layers, and validates data quality using Soda Core.
 
-<p align="center">
-  <img width="500" height="400" src="images/project_architecture.png">
-</p>
+## Architecture
 
-## **Motivation** 
+```text
+YouTube Data API
+        |
+        |
+        v
+Python Extraction
+        |
+        |
+        v
+Apache Airflow
+        |
+        |
+        +----------------+
+        |                |
+        v                v
+   JSON Storage     PostgreSQL
+                         |
+              ---------------------
+              |                   |
+              v                   v
+        staging.yt_api       core.yt_api
+              |
+              |
+              v
+        Soda Data Quality
+```
 
-The aim of this project is to get familiar with data engineering tools such as Python, Docker & Airflow to produce an ELT data pipeline. To make the pipeline more robust, best practices of unit & data quality testing and continuous integration/continuous deployment (CI-CD) are also implemented.
+---
 
-## **Dataset** 
+## Tech Stack
 
-As a data source, the Youtube API is used. The data of this project is pulled from a popular channel - 'MrBeast'.
-It is good to note that this project can be replicated for any other Youtube channel you would simply need to change the the Youtube Channel ID/ HandleS. 
+## Programming
 
-## **Summary**
+* Python
 
-This ELT project uses Airflow as an orchestration tool, packaged inside docker containers. The steps that make up the project are as follows:
+## Orchestration
 
-1. Data is **extracted** using the Youtube API with Python scripts 
-2. The data is initially **loaded** into a `staging schema` which is a dockerized PostgreSQL database
-3. From there, a python script is used for minor data **transformations** where the data is then loaded into the `core schema` (also a dockerized PostgreSQL database) 
+* Apache Airflow 3.x
 
-The first (initial) API pull loads the data - this is the initial **full upload**. 
-Successive pulls **upserts** the values for certain variables (columns). Once the core schema is populated and both unit and data quality tests have been implemented, the data is then ready for analysis. 
+## Containerization
 
-The following seven variables are extracted from the API: 
-* *Video ID*, 
-* *Video Title*, 
-* *Upload Date*, 
-* *Duration*,
-* *Video Views*,
-* *Likes Count*, 
-* *Comments Count*
+* Docker
+* Docker Compose
 
-## **Tools & Technologies**
+## Database
 
-* *Containerization* - **Docker**, **Docker-Compose**
-* *Orchestration* - **Airflow**
-* *Data Storage* - **Postgres**
-* *Languages* - **Python, SQL**
-* *Testing* - **SODA**, **pytest**
-* *CI-CD* - **Github Actions**
+* PostgreSQL
 
-## **Containerization**
+## Data Quality
 
-To deploy Airflow on Docker, the official [docker-compose.yaml](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html#fetching-docker-compose-yaml) file is used with some changes:
+* Soda Core
 
-1. The image used is an extended image, built using a Dockerfile. This image is pulled/pushed from/to to Docker Hub using the Github Actions CI-CD workflow yaml file. Once the image is created, the docker-compose yaml file can be executed to run the multiple containers - This is also done in the CI-CD workflow.
+## API
 
-2. Database Connection and Variables are specified as environment variables. 
+* YouTube Data API v3
 
-The Connection is given in a URI format and has the following naming convention: `AIRFLOW_CONN_{CONN_ID}` 
+---
 
-while the Variables are specified as such: `AIRFLOW_VAR_{VARIABLE_NAME}`
+# Project Structure
 
-3. A Fernet key is used to encrypt passwords in the connection and variable configuration.
+```
+You-ElT
+│
+├── dags
+│   |
+│   ├── main.py
+│   |
+│   ├── api
+│   │   └── video_stats.py
+│   |
+│   ├── datawarehouse
+│   │   └── dwh.py
+│   |
+│   └── dataquality
+│       └── soda.py
+│
+├── include
+│   |
+│   └── soda
+│       |
+│       ├── configuration.yml
+│       └── checks.yml
+│
+├── data
+│
+├── docker-compose.yml
+│
+└── requirements.txt
+```
 
-## **Orchestration**
+---
 
-Three DAGs exist, triggered one after the other. These can be accessed using the Airflow UI through http://localhost:8080. The DAGs are as follows;
+# Pipeline Workflow
 
-* *produce_json* - DAG to produce JSON file with raw data
-* *update_db* - DAG to process JSON file and insert data into booth staging and core schemas
-* *data_quality* - DAG to check the data quality on both layers in the database
+## DAG 1: produce_json
 
-## **Data Storage**
+Extracts YouTube data.
 
-To access the Youtube API data, you can either access the postgres docker container and use psql to interact with the database or access a database management tool like Dbeaver and run your queries from there.
+Tasks:
 
-## **Testing**
+```
+get_playlist_id
+        |
+get_video_ids
+        |
+extract_video_data
+        |
+save_to_json
+```
 
-Both unit and data quality testing are implemented in this project using pystest and SODA core respectively.
+Output:
 
-## **CI-CD**
+```
+data/YT_data_YYYY-MM-DD.json
+```
 
-The CI-CD part of this project is needed for when you make a change the Airflow code, docker image, packages, etc and want to test that the DAGs are still working as expected. CI-CD is implemented using Github Actions.
+---
 
-## **License**
+## DAG 2: update_db
 
-This project is proprietary and intended for educational use only. Enrolled students may use this code for personal learning purposes. Redistribution, resale, or public sharing of this code is not permitted. See [LICENSE](LICENSE) for full details.
+Loads data into PostgreSQL.
 
-The `docker-compose.yaml` file is derived from the [Apache Airflow](https://airflow.apache.org/) project and is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). See [NOTICE](NOTICE) for attribution details.
+Flow:
+
+```
+JSON
+ |
+ |
+staging.yt_api
+ |
+ |
+core.yt_api
+```
+
+---
+
+## DAG 3: data_quality
+
+Validates warehouse data.
+
+Checks:
+
+✅ Missing Video_ID
+
+✅ Duplicate Video_ID
+
+✅ Likes count validation
+
+✅ Comments count validation
+
+---
+
+# Database Design
+
+Database:
+
+```
+elt_db
+```
+
+Schemas:
+
+```
+staging
+core
+```
+
+Tables:
+
+```
+staging.yt_api
+
+core.yt_api
+```
+
+---
+
+# Run Project
+
+## Start Docker
+
+```bash
+docker compose up -d
+```
+
+Check containers:
+
+```bash
+docker compose ps
+```
+
+---
+
+# Airflow UI
+
+Open:
+
+```
+http://localhost:8080
+```
+
+Login:
+
+```
+username: airflow
+password: airflow
+```
+
+---
+
+# Set Airflow Variables
+
+```bash
+docker exec -it airflow-worker airflow variables set API_KEY "YOUR_API_KEY"
+
+docker exec -it airflow-worker airflow variables set CHANNEL_HANDLE "@CHANNEL"
+```
+
+---
+
+# Trigger Pipeline
+
+```bash
+docker exec -it airflow-scheduler airflow dags trigger produce_json
+```
+
+---
+
+# Verify Database
+
+Connect:
+
+```bash
+docker exec -it postgres psql -U airflow -d elt_db
+```
+
+Check tables:
+
+```sql
+SELECT *
+FROM staging.yt_api
+LIMIT 10;
+```
+
+---
+
+# Data Quality Test
+
+Example:
+
+```bash
+docker exec -it airflow-scheduler airflow tasks test data_quality soda_test_staging 2026-07-21
+```
+
+Expected:
+
+```
+4/4 checks PASSED
+```
+
+---
+
+# Future Improvements
+
+* Add dbt transformations
+* Add Apache Spark processing
+* Add AWS S3 Data Lake
+* Add Power BI Dashboard
+* Add CI/CD with GitHub Actions
+* Add Cloud Deployment
+
+---
+
+# Author
+
+Fahim Faysal Rabby
+
+Data Engineering Portfolio Project
