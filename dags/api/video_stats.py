@@ -12,33 +12,44 @@ from airflow.models import Variable
 maxResults = 50
 
 
-
 @task
 def get_playlist_id():
 
+    API_KEY = Variable.get("API_KEY")
+    CHANNEL_HANDLE = Variable.get("CHANNEL_HANDLE")
+
     try:
 
-        url = f"https://youtube.googleapis.com/youtube/v3/channels?part=contentDetails&forHandle={CHANNEL_HANDLE}&key={API_KEY}"
+        url = "https://youtube.googleapis.com/youtube/v3/channels"
 
-        response = requests.get(url)
+        params = {
+            "part": "contentDetails",
+            "forHandle": CHANNEL_HANDLE,
+            "key": API_KEY
+        }
+
+        response = requests.get(url, params=params)
+
+        print("STATUS:", response.status_code)
+        print(response.text)
 
         response.raise_for_status()
 
         data = response.json()
 
-        # print(json.dumps(data,indent=4))
-
-        channel_items = data["items"][0]
-
-        channel_playlistId = channel_items["contentDetails"]["relatedPlaylists"][
-            "uploads"
-        ]
+        channel_playlistId = (
+            data["items"][0]
+            ["contentDetails"]
+            ["relatedPlaylists"]
+            ["uploads"]
+        )
 
         return channel_playlistId
 
-    except requests.exceptions.RequestException as e:
+    except Exception as e:
         raise e
 
+        
 
 @task
 def get_video_ids(playlistId):
