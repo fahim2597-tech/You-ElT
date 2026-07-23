@@ -5,4 +5,3 @@ data_source pg_datasource:
   host: ${POSTGRES_CONN_HOST}
   port: ${POSTGRES_CONN_PORT}
   database: ${ELT_DATABASE_NAME}
-  schema: ${SCHEMA}
