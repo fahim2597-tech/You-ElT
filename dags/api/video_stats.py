@@ -8,15 +8,16 @@ maxResults = 50
 
 @task
 def get_playlist_id():
+
     API_KEY = Variable.get("API_KEY")
-    CHANNEL_ID = Variable.get("CHANNEL_HANDLE")
+    CHANNEL_HANDLE = Variable.get("CHANNEL_HANDLE")
 
     url = "https://youtube.googleapis.com/youtube/v3/channels"
 
     params = {
         "part": "contentDetails",
-        "id": CHANNEL_ID,
-        "key": API_KEY,
+        "id": CHANNEL_HANDLE,
+        "key": API_KEY
     }
 
     response = requests.get(url, params=params)
@@ -25,31 +26,34 @@ def get_playlist_id():
     data = response.json()
 
     if not data.get("items"):
-        raise Exception("Channel not found.")
+        raise Exception("Channel not found")
 
     return data["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
 
 
 @task
 def get_video_ids(playlistId):
+
     API_KEY = Variable.get("API_KEY")
 
     video_ids = []
+
     pageToken = None
 
     while True:
 
-        url = "https://youtube.googleapis.com/youtube/v3/playlistItems"
+        url = (
+            "https://youtube.googleapis.com/youtube/v3/playlistItems"
+            f"?part=contentDetails"
+            f"&maxResults={maxResults}"
+            f"&playlistId={playlistId}"
+            f"&key={API_KEY}"
+        )
 
-        params = {
-            "part": "contentDetails",
-            "playlistId": playlistId,
-            "maxResults": maxResults,
-            "pageToken": pageToken,
-            "key": API_KEY,
-        }
+        if pageToken:
+            url += f"&pageToken={pageToken}"
 
-        response = requests.get(url, params=params)
+        response = requests.get(url)
         response.raise_for_status()
 
         data = response.json()
@@ -67,6 +71,7 @@ def get_video_ids(playlistId):
 
 @task
 def extract_video_data(video_ids):
+
     API_KEY = Variable.get("API_KEY")
 
     video_stats = []
@@ -75,20 +80,21 @@ def extract_video_data(video_ids):
 
         ids = ",".join(video_ids[i:i + 50])
 
-        url = "https://youtube.googleapis.com/youtube/v3/videos"
+        url = (
+            "https://youtube.googleapis.com/youtube/v3/videos"
+            f"?part=snippet,contentDetails,statistics"
+            f"&id={ids}"
+            f"&key={API_KEY}"
+        )
 
-        params = {
-            "part": "snippet,contentDetails,statistics",
-            "id": ids,
-            "key": API_KEY,
-        }
-
-        response = requests.get(url, params=params)
+        response = requests.get(url)
         response.raise_for_status()
 
         data = response.json()
 
         for item in data.get("items", []):
+
+            stats = item.get("statistics", {})
 
             video_stats.append(
                 {
@@ -96,9 +102,9 @@ def extract_video_data(video_ids):
                     "Video_Title": item["snippet"]["title"],
                     "Upload_Date": item["snippet"]["publishedAt"],
                     "Duration": item["contentDetails"]["duration"],
-                    "Video_Views": item["statistics"].get("viewCount", 0),
-                    "Likes_Count": item["statistics"].get("likeCount", 0),
-                    "Comments_Count": item["statistics"].get("commentCount", 0),
+                    "Video_Views": int(stats.get("viewCount", 0)),
+                    "Likes_Count": int(stats.get("likeCount", 0)),
+                    "Comments_Count": int(stats.get("commentCount", 0)),
                 }
             )
 
@@ -110,5 +116,3 @@ def save_to_json(video_stats):
 
     with open("/opt/airflow/dags/video_data.json", "w") as outfile:
         json.dump(video_stats, outfile, indent=4)
-
-    return "/opt/airflow/dags/video_data.json"
