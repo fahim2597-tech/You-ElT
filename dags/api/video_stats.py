@@ -20,6 +20,7 @@ def get_playlist_id():
         "key": API_KEY
     }
 
+<<<<<<< HEAD
     response = requests.get(url, params=params)
     response.raise_for_status()
 
@@ -30,6 +31,26 @@ def get_playlist_id():
 
     return data["items"][0]["contentDetails"]["relatedPlaylists"]["uploads"]
 
+=======
+    try:
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+
+        data = response.json()
+
+        channel_playlist_id = (
+            data["items"][0]
+            ["contentDetails"]
+            ["relatedPlaylists"]
+            ["uploads"]
+        )
+
+        return channel_playlist_id
+
+    except Exception as e:
+        raise e
+
+>>>>>>> e266700 (Update video stats API)
 
 @task
 def get_video_ids(playlistId):
@@ -40,7 +61,17 @@ def get_video_ids(playlistId):
 
     pageToken = None
 
+<<<<<<< HEAD
     while True:
+=======
+    base_url = (
+    "https://youtube.googleapis.com/youtube/v3/playlistItems"
+    f"?part=contentDetails"
+    f"&maxResults={maxResults}"
+    f"&playlistId={playlistId}"
+    f"&key={API_KEY}"
+)
+>>>>>>> e266700 (Update video stats API)
 
         url = (
             "https://youtube.googleapis.com/youtube/v3/playlistItems"
@@ -58,21 +89,44 @@ def get_video_ids(playlistId):
 
         data = response.json()
 
+<<<<<<< HEAD
         for item in data.get("items", []):
             video_ids.append(item["contentDetails"]["videoId"])
 
         pageToken = data.get("nextPageToken")
+=======
+            response = requests.get(url)
+            response.raise_for_status()
+>>>>>>> e266700 (Update video stats API)
 
         if not pageToken:
             break
 
+<<<<<<< HEAD
     return video_ids
+=======
+            for item in data.get("items", []):
+                video_ids.append(
+                    item["contentDetails"]["videoId"]
+                )
+
+            pageToken = data.get("nextPageToken")
+
+            if not pageToken:
+                break
+
+        return video_ids
+
+    except Exception as e:
+        raise e
+>>>>>>> e266700 (Update video stats API)
 
 
 @task
 def extract_video_data(video_ids):
 
     API_KEY = Variable.get("API_KEY")
+<<<<<<< HEAD
 
     video_stats = []
 
@@ -86,12 +140,36 @@ def extract_video_data(video_ids):
             f"&id={ids}"
             f"&key={API_KEY}"
         )
+=======
+
+    extracted_data = []
+
+    url = "https://youtube.googleapis.com/youtube/v3/videos"
+
+    try:
+
+        for i in range(0, len(video_ids), maxResults):
+
+            batch = video_ids[i:i + maxResults]
+
+            params = {
+                "part": "snippet,statistics,contentDetails",
+                "id": ",".join(batch),
+                "key": API_KEY
+            }
+
+            response = requests.get(
+                url,
+                params=params
+            )
+>>>>>>> e266700 (Update video stats API)
 
         response = requests.get(url)
         response.raise_for_status()
 
         data = response.json()
 
+<<<<<<< HEAD
         for item in data.get("items", []):
 
             stats = item.get("statistics", {})
@@ -116,3 +194,48 @@ def save_to_json(video_stats):
 
     with open("/opt/airflow/dags/video_data.json", "w") as outfile:
         json.dump(video_stats, outfile, indent=4)
+=======
+            for item in data.get("items", []):
+
+                extracted_data.append(
+                    {
+                        "Video_ID": item["id"],
+                        "Video_Title": item["snippet"]["title"],
+                        "Upload_Date": item["snippet"]["publishedAt"],
+                        "Duration": item["contentDetails"]["duration"],
+                        "Video_Views": int(
+                            item["statistics"].get("viewCount", 0)
+                        ),
+                        "Likes_Count": int(
+                            item["statistics"].get("likeCount", 0)
+                        ),
+                        "Comments_Count": int(
+                            item["statistics"].get("commentCount", 0)
+                        ),
+                    }
+                )
+
+        return extracted_data
+
+    except Exception as e:
+        raise e
+
+
+@task
+def save_to_json(data):
+
+    with open(
+        "/opt/airflow/data/YT_data.json",
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            data,
+            file,
+            indent=4,
+            ensure_ascii=False
+        )
+
+    return "JSON file saved successfully"
+>>>>>>> e266700 (Update video stats API)
