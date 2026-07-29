@@ -142,7 +142,7 @@ services:
       start_period: 5s
          restart: always
 
-redis:
+  redis:
     image: redis:7.2-bookworm
 
     container_name: redis
