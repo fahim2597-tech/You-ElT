@@ -146,13 +146,13 @@ services:
 
     restart: always
 
-    
-       redis:
+        
+ redis:
 
     image: redis:7.2-bookworm
 
     container_name: redis
-
+    
     expose:
 
       - 6379
