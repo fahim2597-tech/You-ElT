@@ -147,12 +147,11 @@ services:
     restart: always
 
     
-      redis:
+       redis:
 
     image: redis:7.2-bookworm
 
     container_name: redis
-
 
     expose:
 
@@ -171,6 +170,8 @@ services:
 
       start_period: 30s
 
+
+    restart: always
 
     restart: always
 
