@@ -1,4 +1,3 @@
-cat > dags/api/video_stats.py <<'EOF'
 import requests
 import json
 
@@ -20,7 +19,7 @@ def get_playlist_id():
     params = {
         "part": "contentDetails",
         "id": channel_id,
-        "key": api_key,
+        "key": api_key
     }
 
     response = requests.get(url, params=params)
@@ -53,15 +52,13 @@ def get_video_ids(playlist_id):
             "part": "contentDetails",
             "playlistId": playlist_id,
             "maxResults": MAX_RESULTS,
-            "key": api_key,
+            "key": api_key
         }
 
         if page_token:
             params["pageToken"] = page_token
 
-        url = (
-            "https://youtube.googleapis.com/youtube/v3/playlistItems"
-        )
+        url = "https://youtube.googleapis.com/youtube/v3/playlistItems"
 
         response = requests.get(url, params=params)
         response.raise_for_status()
@@ -86,9 +83,9 @@ def extract_video_data(video_ids):
 
     api_key = Variable.get("API_KEY")
 
-    url = "https://youtube.googleapis.com/youtube/v3/videos"
-
     video_stats = []
+
+    url = "https://youtube.googleapis.com/youtube/v3/videos"
 
     for i in range(0, len(video_ids), MAX_RESULTS):
 
@@ -97,21 +94,17 @@ def extract_video_data(video_ids):
         params = {
             "part": "snippet,statistics,contentDetails",
             "id": ",".join(batch),
-            "key": api_key,
+            "key": api_key
         }
 
-        response = requests.get(
-            url,
-            params=params
-        )
-
+        response = requests.get(url, params=params)
         response.raise_for_status()
 
         data = response.json()
 
         for item in data.get("items", []):
 
-            stats = item.get("statistics", {})
+            statistics = item.get("statistics", {})
 
             video_stats.append(
                 {
@@ -119,9 +112,9 @@ def extract_video_data(video_ids):
                     "Video_Title": item["snippet"]["title"],
                     "Upload_Date": item["snippet"]["publishedAt"],
                     "Duration": item["contentDetails"]["duration"],
-                    "Video_Views": int(stats.get("viewCount", 0)),
-                    "Likes_Count": int(stats.get("likeCount", 0)),
-                    "Comments_Count": int(stats.get("commentCount", 0)),
+                    "Video_Views": int(statistics.get("viewCount", 0)),
+                    "Likes_Count": int(statistics.get("likeCount", 0)),
+                    "Comments_Count": int(statistics.get("commentCount", 0)),
                 }
             )
 
@@ -131,10 +124,8 @@ def extract_video_data(video_ids):
 @task
 def save_to_json(data):
 
-    path = "/opt/airflow/dags/video_data.json"
-
     with open(
-        path,
+        "/opt/airflow/data/YT_data.json",
         "w",
         encoding="utf-8"
     ) as file:
@@ -146,5 +137,4 @@ def save_to_json(data):
             ensure_ascii=False
         )
 
-    return "JSON saved successfully"
-EOF
+    return "JSON file saved successfully"

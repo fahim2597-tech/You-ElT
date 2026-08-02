@@ -48,7 +48,7 @@ x-airflow-common:
   &airflow-common
   # Use custom image that builds on top of default airflow image (currently; Default: apache/airflow:2.9.2)
   # Image stored on Dockerhub
-  image: ${DOCKERHUB_NAMESPACE}/${DOCKERHUB_REPOSITORY}:latest
+  image: fahimudemy007/yt_api_elt:latest
   # Use the .env file to read the connection params and variables - SWITCH THIS OFF WHEN USING GITHUB ACTIONS
   # env_file:
   #   - .env
@@ -140,7 +140,6 @@ services:
       interval: 10s
       retries: 5
       start_period: 5s
-         restart: always
 
   redis:
     image: redis:7.2-bookworm
@@ -166,7 +165,7 @@ services:
     ports:
       - "8080:8080"
     healthcheck:
-      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/api/v2/monitor/health"]
       interval: 30s
       timeout: 10s
       retries: 5
@@ -182,7 +181,7 @@ services:
     command: scheduler
     container_name: airflow-scheduler
     healthcheck:
-      test: ["CMD", "curl", "--fail", "http://localhost:8974/health"]
+      test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname $$(hostname)"]
       interval: 30s
       timeout: 10s
       retries: 5
