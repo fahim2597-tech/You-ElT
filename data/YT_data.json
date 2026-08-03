@@ -4,17 +4,17 @@
         "Video_Title": "Which version of core ends up in your lockfile?",
         "Upload_Date": "2026-08-03T13:00:31Z",
         "Duration": "PT1M4S",
-        "Video_Views": 869,
-        "Likes_Count": 58,
-        "Comments_Count": 6
+        "Video_Views": 1372,
+        "Likes_Count": 69,
+        "Comments_Count": 8
     },
     {
         "Video_ID": "-rYFDefcq3k",
         "Video_Title": "Introducing Gemini Robotics 2",
         "Upload_Date": "2026-07-31T19:00:37Z",
         "Duration": "PT39M14S",
-        "Video_Views": 10645,
-        "Likes_Count": 360,
+        "Video_Views": 10873,
+        "Likes_Count": 359,
         "Comments_Count": 39
     },
     {
@@ -22,8 +22,8 @@
         "Video_Title": "Voice Agent observability with LangSmith",
         "Upload_Date": "2026-07-31T16:22:34Z",
         "Duration": "PT7M38S",
-        "Video_Views": 3034,
-        "Likes_Count": 142,
+        "Video_Views": 3110,
+        "Likes_Count": 143,
         "Comments_Count": 14
     },
     {
@@ -31,8 +31,8 @@
         "Video_Title": "The documentary all devs would watch tbh…",
         "Upload_Date": "2026-07-31T04:00:35Z",
         "Duration": "PT14S",
-        "Video_Views": 5900,
-        "Likes_Count": 83,
+        "Video_Views": 6048,
+        "Likes_Count": 86,
         "Comments_Count": 8
     },
     {
@@ -40,7 +40,7 @@
         "Video_Title": "Android Studio Quail 2, the Build with Gemini XPRIZE, and more! - Google Developer News July 2026",
         "Upload_Date": "2026-07-30T16:00:39Z",
         "Duration": "PT5M24S",
-        "Video_Views": 2265,
+        "Video_Views": 2275,
         "Likes_Count": 106,
         "Comments_Count": 3
     },
@@ -49,25 +49,25 @@
         "Video_Title": "Building the ultimate morning dashboard with Gemini 3.6 Flash and Nano Banana",
         "Upload_Date": "2026-07-29T23:00:37Z",
         "Duration": "PT1M14S",
-        "Video_Views": 8829,
+        "Video_Views": 8905,
         "Likes_Count": 219,
-        "Comments_Count": 5
+        "Comments_Count": 6
     },
     {
         "Video_ID": "UUozyqDNRGg",
         "Video_Title": "Does this install succeed? If it does, which three versions end up in your lockfile?",
         "Upload_Date": "2026-07-27T13:00:08Z",
         "Duration": "PT1M5S",
-        "Video_Views": 6009,
+        "Video_Views": 6020,
         "Likes_Count": 182,
-        "Comments_Count": 11
+        "Comments_Count": 12
     },
     {
         "Video_ID": "NIDrPjeZ-jQ",
         "Video_Title": "PM vs. Eng",
         "Upload_Date": "2026-07-23T23:00:32Z",
         "Duration": "PT1M6S",
-        "Video_Views": 33368,
+        "Video_Views": 33382,
         "Likes_Count": 1113,
         "Comments_Count": 46
     },
@@ -76,7 +76,7 @@
         "Video_Title": "Expose your site's actions to AI agents using WebMCP",
         "Upload_Date": "2026-07-22T23:00:37Z",
         "Duration": "PT1M29S",
-        "Video_Views": 7414,
+        "Video_Views": 7417,
         "Likes_Count": 262,
         "Comments_Count": 7
     },
@@ -85,8 +85,8 @@
         "Video_Title": "How are large language models trained?",
         "Upload_Date": "2026-07-22T15:57:42Z",
         "Duration": "PT10M9S",
-        "Video_Views": 18316,
-        "Likes_Count": 992,
+        "Video_Views": 18389,
+        "Likes_Count": 994,
         "Comments_Count": 40
     },
     {
@@ -94,7 +94,7 @@
         "Video_Title": "Emojis in the username really do cause havoc, huh?",
         "Upload_Date": "2026-07-22T04:00:29Z",
         "Duration": "PT15S",
-        "Video_Views": 19191,
+        "Video_Views": 19198,
         "Likes_Count": 213,
         "Comments_Count": 6
     },
@@ -103,7 +103,7 @@
         "Video_Title": "Access all Gemini models with the Interactions API",
         "Upload_Date": "2026-07-20T23:00:10Z",
         "Duration": "PT1M24S",
-        "Video_Views": 8383,
+        "Video_Views": 8386,
         "Likes_Count": 315,
         "Comments_Count": 6
     },
@@ -112,7 +112,7 @@
         "Video_Title": "What’s going wrong with this Kotlin code?",
         "Upload_Date": "2026-07-20T13:00:13Z",
         "Duration": "PT24S",
-        "Video_Views": 10413,
+        "Video_Views": 10417,
         "Likes_Count": 162,
         "Comments_Count": 12
     },
@@ -121,7 +121,7 @@
         "Video_Title": "Get started with the Interactions API",
         "Upload_Date": "2026-07-17T23:00:34Z",
         "Duration": "PT8M51S",
-        "Video_Views": 4604,
+        "Video_Views": 4607,
         "Likes_Count": 193,
         "Comments_Count": 8
     },
@@ -130,7 +130,7 @@
         "Video_Title": "Antigravity Arcade: From prompt to game in minutes",
         "Upload_Date": "2026-07-17T16:00:10Z",
         "Duration": "PT8M53S",
-        "Video_Views": 6598,
+        "Video_Views": 6606,
         "Likes_Count": 177,
         "Comments_Count": 15
     },
@@ -139,7 +139,7 @@
         "Video_Title": "Wait, what are we launching?",
         "Upload_Date": "2026-07-17T04:00:14Z",
         "Duration": "PT12S",
-        "Video_Views": 39789,
+        "Video_Views": 39794,
         "Likes_Count": 457,
         "Comments_Count": 23
     },
@@ -148,7 +148,7 @@
         "Video_Title": "What are the new features in Android Studio Quail 2?",
         "Upload_Date": "2026-07-16T16:00:08Z",
         "Duration": "PT1M52S",
-        "Video_Views": 9440,
+        "Video_Views": 9442,
         "Likes_Count": 171,
         "Comments_Count": 6
     },
@@ -157,7 +157,7 @@
         "Video_Title": "The harsh reality of coding 💻",
         "Upload_Date": "2026-07-15T04:00:40Z",
         "Duration": "PT8S",
-        "Video_Views": 14421,
+        "Video_Views": 14428,
         "Likes_Count": 236,
         "Comments_Count": 18
     },
@@ -166,7 +166,7 @@
         "Video_Title": "What’s going wrong with this Kotlin code?",
         "Upload_Date": "2026-07-13T13:00:25Z",
         "Duration": "PT21S",
-        "Video_Views": 16854,
+        "Video_Views": 16858,
         "Likes_Count": 215,
         "Comments_Count": 25
     },
@@ -175,7 +175,7 @@
         "Video_Title": "Whats your go-to prompting hack?",
         "Upload_Date": "2026-07-10T19:00:32Z",
         "Duration": "PT42S",
-        "Video_Views": 9564,
+        "Video_Views": 9569,
         "Likes_Count": 242,
         "Comments_Count": 7
     },
@@ -184,7 +184,7 @@
         "Video_Title": "Build With AI 2026 Recap",
         "Upload_Date": "2026-07-10T16:22:10Z",
         "Duration": "PT1M",
-        "Video_Views": 939,
+        "Video_Views": 942,
         "Likes_Count": 26,
         "Comments_Count": 1
     },
@@ -193,7 +193,7 @@
         "Video_Title": "How to vibe code Android apps",
         "Upload_Date": "2026-07-09T16:13:57Z",
         "Duration": "PT1M19S",
-        "Video_Views": 10441,
+        "Video_Views": 10443,
         "Likes_Count": 485,
         "Comments_Count": 17
     },
@@ -202,7 +202,7 @@
         "Video_Title": "Create clean LLM service interfaces with wrapper classes!",
         "Upload_Date": "2026-07-08T23:00:31Z",
         "Duration": "PT1M1S",
-        "Video_Views": 31570,
+        "Video_Views": 31572,
         "Likes_Count": 1154,
         "Comments_Count": 28
     },
@@ -220,7 +220,7 @@
         "Video_Title": "POV: You’re at I/O Connect Berlin",
         "Upload_Date": "2026-07-07T16:17:06Z",
         "Duration": "PT56S",
-        "Video_Views": 2204,
+        "Video_Views": 2205,
         "Likes_Count": 77,
         "Comments_Count": 2
     },
@@ -229,8 +229,8 @@
         "Video_Title": "Building an Android app in AI Studio",
         "Upload_Date": "2026-07-07T04:00:19Z",
         "Duration": "PT3M5S",
-        "Video_Views": 15541,
-        "Likes_Count": 548,
+        "Video_Views": 15582,
+        "Likes_Count": 550,
         "Comments_Count": 55
     },
     {
@@ -247,7 +247,7 @@
         "Video_Title": "Dynamic Callbacks on Android for Google Pay",
         "Upload_Date": "2026-07-06T21:10:53Z",
         "Duration": "PT4M6S",
-        "Video_Views": 1322,
+        "Video_Views": 1324,
         "Likes_Count": 15,
         "Comments_Count": 2
     },
@@ -256,7 +256,7 @@
         "Video_Title": "Build creative apps with the GenMedia suite (I/O Connect ‘26)",
         "Upload_Date": "2026-07-06T18:14:45Z",
         "Duration": "PT27M24S",
-        "Video_Views": 1060,
+        "Video_Views": 1061,
         "Likes_Count": 36,
         "Comments_Count": 2
     },
@@ -265,7 +265,7 @@
         "Video_Title": "Build agents with Gemini API (I/O Connect ‘26)",
         "Upload_Date": "2026-07-06T18:14:01Z",
         "Duration": "PT37M10S",
-        "Video_Views": 8786,
+        "Video_Views": 8788,
         "Likes_Count": 225,
         "Comments_Count": 15
     },
@@ -274,7 +274,7 @@
         "Video_Title": "Ok, I guess the rain is asking us real questions now.",
         "Upload_Date": "2026-07-02T04:00:05Z",
         "Duration": "PT16S",
-        "Video_Views": 7107,
+        "Video_Views": 7108,
         "Likes_Count": 124,
         "Comments_Count": 8
     },
@@ -283,7 +283,7 @@
         "Video_Title": "Describe what you do in 3 emojis",
         "Upload_Date": "2026-07-01T04:00:00Z",
         "Duration": "PT1M3S",
-        "Video_Views": 6541,
+        "Video_Views": 6542,
         "Likes_Count": 176,
         "Comments_Count": 15
     },
@@ -292,7 +292,7 @@
         "Video_Title": "Sameer Samat on Android 17 and the Future of Intelligent Computing",
         "Upload_Date": "2026-06-30T19:00:24Z",
         "Duration": "PT40M10S",
-        "Video_Views": 6300,
+        "Video_Views": 6305,
         "Likes_Count": 173,
         "Comments_Count": 22
     },
@@ -301,7 +301,7 @@
         "Video_Title": "Gemma 4 in Action: Bringing Frontier AI to the Edge",
         "Upload_Date": "2026-06-29T19:00:34Z",
         "Duration": "PT4M8S",
-        "Video_Views": 97533,
+        "Video_Views": 97546,
         "Likes_Count": 4022,
         "Comments_Count": 237
     },
@@ -310,7 +310,7 @@
         "Video_Title": "What’s happening in this Kotlin code?",
         "Upload_Date": "2026-06-29T13:00:08Z",
         "Duration": "PT23S",
-        "Video_Views": 9788,
+        "Video_Views": 9789,
         "Likes_Count": 166,
         "Comments_Count": 19
     },
@@ -319,7 +319,7 @@
         "Video_Title": "AI tools for human creativity",
         "Upload_Date": "2026-06-26T23:00:25Z",
         "Duration": "PT1H4M15S",
-        "Video_Views": 13790,
+        "Video_Views": 13793,
         "Likes_Count": 545,
         "Comments_Count": 23
     },
@@ -328,8 +328,8 @@
         "Video_Title": "Run Gemma on Reachy Mini, an open source robot",
         "Upload_Date": "2026-06-26T19:00:02Z",
         "Duration": "PT2M53S",
-        "Video_Views": 34536,
-        "Likes_Count": 960,
+        "Video_Views": 34545,
+        "Likes_Count": 961,
         "Comments_Count": 45
     },
     {
@@ -337,7 +337,7 @@
         "Video_Title": "Gemini 3.5 Live Translate, Gemini in Xcode, and more! - Google Developer News June 2026",
         "Upload_Date": "2026-06-25T16:00:16Z",
         "Duration": "PT4M19S",
-        "Video_Views": 7311,
+        "Video_Views": 7312,
         "Likes_Count": 290,
         "Comments_Count": 19
     },
@@ -346,7 +346,7 @@
         "Video_Title": "Stop writing longer prompts. Do this instead! 🧠",
         "Upload_Date": "2026-06-24T16:00:13Z",
         "Duration": "PT1M18S",
-        "Video_Views": 19206,
+        "Video_Views": 19209,
         "Likes_Count": 601,
         "Comments_Count": 17
     },
@@ -355,7 +355,7 @@
         "Video_Title": "Gemma Playground: Parallel Agents in Action",
         "Upload_Date": "2026-06-22T23:00:03Z",
         "Duration": "PT1M31S",
-        "Video_Views": 15050,
+        "Video_Views": 15052,
         "Likes_Count": 409,
         "Comments_Count": 42
     },
@@ -382,7 +382,7 @@
         "Video_Title": "Gemma Playground: AI Edge Gallery",
         "Upload_Date": "2026-06-18T19:20:15Z",
         "Duration": "PT3M21S",
-        "Video_Views": 27140,
+        "Video_Views": 27141,
         "Likes_Count": 809,
         "Comments_Count": 69
     },
@@ -391,7 +391,7 @@
         "Video_Title": "3 takeaways on Software Ecology™️",
         "Upload_Date": "2026-06-18T16:06:57Z",
         "Duration": "PT1M35S",
-        "Video_Views": 4199,
+        "Video_Views": 4201,
         "Likes_Count": 171,
         "Comments_Count": 3
     },
@@ -400,7 +400,7 @@
         "Video_Title": "When you realize that you’re the senior dev now.",
         "Upload_Date": "2026-06-18T04:00:31Z",
         "Duration": "PT19S",
-        "Video_Views": 8637,
+        "Video_Views": 8638,
         "Likes_Count": 128,
         "Comments_Count": 8
     },
@@ -409,7 +409,7 @@
         "Video_Title": "POV: A new feature enters the chat. 🕺✨",
         "Upload_Date": "2026-06-17T04:00:29Z",
         "Duration": "PT19S",
-        "Video_Views": 13356,
+        "Video_Views": 13357,
         "Likes_Count": 119,
         "Comments_Count": 9
     },
@@ -418,7 +418,7 @@
         "Video_Title": "Run Gemma on the edge with the Coral Board",
         "Upload_Date": "2026-06-15T23:00:40Z",
         "Duration": "PT1M26S",
-        "Video_Views": 103941,
+        "Video_Views": 103946,
         "Likes_Count": 3583,
         "Comments_Count": 230
     },
@@ -436,7 +436,7 @@
         "Video_Title": "Inspect and live-edit 3D WebGL elements",
         "Upload_Date": "2026-06-12T23:00:15Z",
         "Duration": "PT34S",
-        "Video_Views": 17253,
+        "Video_Views": 17254,
         "Likes_Count": 267,
         "Comments_Count": 5
     },
@@ -454,7 +454,7 @@
         "Video_Title": "See how Gemma  can explore, plan, and scale!",
         "Upload_Date": "2026-06-11T23:00:12Z",
         "Duration": "PT57S",
-        "Video_Views": 2776,
+        "Video_Views": 2777,
         "Likes_Count": 93,
         "Comments_Count": 1
     },
@@ -463,7 +463,7 @@
         "Video_Title": "Yossi Matias on the golden age of research",
         "Upload_Date": "2026-06-11T19:00:13Z",
         "Duration": "PT1H11M35S",
-        "Video_Views": 5948,
+        "Video_Views": 5949,
         "Likes_Count": 181,
         "Comments_Count": 24
     },
@@ -508,16 +508,16 @@
         "Video_Title": "Introducing Gemini 3.5 Live Translate",
         "Upload_Date": "2026-06-09T15:14:29Z",
         "Duration": "PT3M29S",
-        "Video_Views": 182871,
+        "Video_Views": 182879,
         "Likes_Count": 5452,
-        "Comments_Count": 395
+        "Comments_Count": 397
     },
     {
         "Video_ID": "pLwB_63yUBY",
         "Video_Title": "Gemma Playground: Robot Duck",
         "Upload_Date": "2026-06-09T04:00:33Z",
         "Duration": "PT2M11S",
-        "Video_Views": 47672,
+        "Video_Views": 47680,
         "Likes_Count": 1623,
         "Comments_Count": 93
     },
@@ -571,7 +571,7 @@
         "Video_Title": "Managed Agents in the Gemini API",
         "Upload_Date": "2026-06-03T17:12:21Z",
         "Duration": "PT9M35S",
-        "Video_Views": 2649,
+        "Video_Views": 2650,
         "Likes_Count": 89,
         "Comments_Count": 6
     },
@@ -589,7 +589,7 @@
         "Video_Title": "Getting Started with Managed Agents",
         "Upload_Date": "2026-06-02T19:00:24Z",
         "Duration": "PT11M33S",
-        "Video_Views": 5340,
+        "Video_Views": 5343,
         "Likes_Count": 162,
         "Comments_Count": 12
     },
@@ -598,7 +598,7 @@
         "Video_Title": "A mechanical or low-profile keyboard?",
         "Upload_Date": "2026-06-02T16:09:47Z",
         "Duration": "PT48S",
-        "Video_Views": 8436,
+        "Video_Views": 8437,
         "Likes_Count": 95,
         "Comments_Count": 8
     },
@@ -607,7 +607,7 @@
         "Video_Title": "Vibe code conversational agents in AI Studio",
         "Upload_Date": "2026-06-01T23:00:26Z",
         "Duration": "PT7M48S",
-        "Video_Views": 6241,
+        "Video_Views": 6244,
         "Likes_Count": 251,
         "Comments_Count": 20
     },
@@ -625,7 +625,7 @@
         "Video_Title": "Gemini co-leads on project origins and what's next",
         "Upload_Date": "2026-05-29T16:00:20Z",
         "Duration": "PT42M",
-        "Video_Views": 18605,
+        "Video_Views": 18607,
         "Likes_Count": 474,
         "Comments_Count": 45
     },
@@ -706,7 +706,7 @@
         "Video_Title": "What's new in Google AI",
         "Upload_Date": "2026-05-23T00:45:21Z",
         "Duration": "PT30M24S",
-        "Video_Views": 10988,
+        "Video_Views": 10990,
         "Likes_Count": 231,
         "Comments_Count": 20
     },
@@ -724,7 +724,7 @@
         "Video_Title": "The future of software development",
         "Upload_Date": "2026-05-22T22:45:30Z",
         "Duration": "PT47M21S",
-        "Video_Views": 8955,
+        "Video_Views": 8958,
         "Likes_Count": 211,
         "Comments_Count": 13
     },
@@ -733,7 +733,7 @@
         "Video_Title": "Bring the power of on-device AI to life with Google AI Edge and Gemma",
         "Upload_Date": "2026-05-22T19:00:42Z",
         "Duration": "PT31M38S",
-        "Video_Views": 6858,
+        "Video_Views": 6861,
         "Likes_Count": 194,
         "Comments_Count": 7
     },
@@ -742,7 +742,7 @@
         "Video_Title": "What's new in the Gemma open model family",
         "Upload_Date": "2026-05-22T17:59:28Z",
         "Duration": "PT47M55S",
-        "Video_Views": 20616,
+        "Video_Views": 20619,
         "Likes_Count": 477,
         "Comments_Count": 33
     },
@@ -769,7 +769,7 @@
         "Video_Title": "Physical AI: the new era of robotics",
         "Upload_Date": "2026-05-21T23:56:16Z",
         "Duration": "PT38M",
-        "Video_Views": 7472,
+        "Video_Views": 7473,
         "Likes_Count": 191,
         "Comments_Count": 8
     },
@@ -778,7 +778,7 @@
         "Video_Title": "A new era of discovery: AI and the frontiers of science with Demis Hassabis",
         "Upload_Date": "2026-05-21T23:55:48Z",
         "Duration": "PT42M48S",
-        "Video_Views": 40986,
+        "Video_Views": 40997,
         "Likes_Count": 1013,
         "Comments_Count": 63
     },
@@ -787,8 +787,8 @@
         "Video_Title": "Building the quantum-AI future with Hartmut Neven and James Manyika",
         "Upload_Date": "2026-05-21T23:54:06Z",
         "Duration": "PT40M28S",
-        "Video_Views": 7790,
-        "Likes_Count": 224,
+        "Video_Views": 7795,
+        "Likes_Count": 225,
         "Comments_Count": 13
     },
     {
@@ -805,7 +805,7 @@
         "Video_Title": "Build agents with Gemini API",
         "Upload_Date": "2026-05-21T23:52:17Z",
         "Duration": "PT38M13S",
-        "Video_Views": 4300,
+        "Video_Views": 4304,
         "Likes_Count": 109,
         "Comments_Count": 2
     },
@@ -823,8 +823,8 @@
         "Video_Title": "Build next-gen AI experiences with Google AI Studio and Google Antigravity",
         "Upload_Date": "2026-05-21T22:41:09Z",
         "Duration": "PT42M13S",
-        "Video_Views": 12242,
-        "Likes_Count": 316,
+        "Video_Views": 12244,
+        "Likes_Count": 317,
         "Comments_Count": 23
     },
     {
@@ -841,7 +841,7 @@
         "Video_Title": "Power the future of robotics with Gemini",
         "Upload_Date": "2026-05-21T17:15:46Z",
         "Duration": "PT18M5S",
-        "Video_Views": 14181,
+        "Video_Views": 14182,
         "Likes_Count": 462,
         "Comments_Count": 22
     },
@@ -850,7 +850,7 @@
         "Video_Title": "Create advanced data driven Gemini API apps",
         "Upload_Date": "2026-05-21T17:15:42Z",
         "Duration": "PT13M34S",
-        "Video_Views": 1839,
+        "Video_Views": 1840,
         "Likes_Count": 51,
         "Comments_Count": 3
     },
@@ -877,7 +877,7 @@
         "Video_Title": "Match what your AI does with what users want to do",
         "Upload_Date": "2026-05-21T17:15:30Z",
         "Duration": "PT35M54S",
-        "Video_Views": 1501,
+        "Video_Views": 1502,
         "Likes_Count": 44,
         "Comments_Count": 0
     },
@@ -886,8 +886,8 @@
         "Video_Title": "A fireside chat on the evolution of the developer craft",
         "Upload_Date": "2026-05-21T17:15:25Z",
         "Duration": "PT45M10S",
-        "Video_Views": 16714,
-        "Likes_Count": 434,
+        "Video_Views": 16719,
+        "Likes_Count": 435,
         "Comments_Count": 13
     },
     {
@@ -895,8 +895,8 @@
         "Video_Title": "Build core skills to thrive as an AI-era developer",
         "Upload_Date": "2026-05-21T17:15:17Z",
         "Duration": "PT44M19S",
-        "Video_Views": 75158,
-        "Likes_Count": 1906,
+        "Video_Views": 75174,
+        "Likes_Count": 1907,
         "Comments_Count": 62
     },
     {
@@ -904,8 +904,8 @@
         "Video_Title": "Software engineering at the tipping point",
         "Upload_Date": "2026-05-21T17:15:12Z",
         "Duration": "PT39M39S",
-        "Video_Views": 426354,
-        "Likes_Count": 12667,
+        "Video_Views": 426439,
+        "Likes_Count": 12668,
         "Comments_Count": 396
     },
     {
@@ -913,8 +913,8 @@
         "Video_Title": "Google I/O 2026 Developer Keynote 5-Minute recap",
         "Upload_Date": "2026-05-19T23:56:04Z",
         "Duration": "PT5M2S",
-        "Video_Views": 81808,
-        "Likes_Count": 1582,
+        "Video_Views": 81845,
+        "Likes_Count": 1583,
         "Comments_Count": 65
     },
     {
@@ -922,7 +922,7 @@
         "Video_Title": "Google I/O 2026 Developer Keynote Recap",
         "Upload_Date": "2026-05-19T23:06:41Z",
         "Duration": "PT59S",
-        "Video_Views": 8164165,
+        "Video_Views": 8164179,
         "Likes_Count": 4014,
         "Comments_Count": 14
     },
@@ -931,8 +931,8 @@
         "Video_Title": "Developer Keynote (Google I/O '26)",
         "Upload_Date": "2026-05-19T21:35:37Z",
         "Duration": "PT58M48S",
-        "Video_Views": 366372,
-        "Likes_Count": 4939,
+        "Video_Views": 366444,
+        "Likes_Count": 4943,
         "Comments_Count": 147
     },
     {
@@ -940,7 +940,7 @@
         "Video_Title": "Developer Keynote (Google I/O '26) - American Sign Language",
         "Upload_Date": "2026-05-19T21:35:05Z",
         "Duration": "PT58M48S",
-        "Video_Views": 9056,
+        "Video_Views": 9057,
         "Likes_Count": 257,
         "Comments_Count": 6
     },
@@ -949,7 +949,7 @@
         "Video_Title": "3 new Chrome features announced at Google I/O 2026",
         "Upload_Date": "2026-05-19T21:29:54Z",
         "Duration": "PT58S",
-        "Video_Views": 6231403,
+        "Video_Views": 6231411,
         "Likes_Count": 3368,
         "Comments_Count": 13
     },
@@ -958,7 +958,7 @@
         "Video_Title": "What’s new in Gemini API, Google AI Studio and Google Antigravity (Google I/O 2026 recap)",
         "Upload_Date": "2026-05-19T21:29:47Z",
         "Duration": "PT59S",
-        "Video_Views": 7841546,
+        "Video_Views": 7841570,
         "Likes_Count": 4597,
         "Comments_Count": 25
     },
@@ -967,7 +967,7 @@
         "Video_Title": "What’s new in Android (Google I/O 2026 recap)",
         "Upload_Date": "2026-05-19T21:29:43Z",
         "Duration": "PT59S",
-        "Video_Views": 7081538,
+        "Video_Views": 7081549,
         "Likes_Count": 5700,
         "Comments_Count": 12
     },
@@ -976,7 +976,7 @@
         "Video_Title": "Introducing Gemini Omni",
         "Upload_Date": "2026-05-19T18:17:49Z",
         "Duration": "PT44M11S",
-        "Video_Views": 17902,
+        "Video_Views": 17909,
         "Likes_Count": 425,
         "Comments_Count": 28
     },
@@ -994,7 +994,7 @@
         "Video_Title": "How to create a full-stack app with Google AI Studio",
         "Upload_Date": "2026-05-12T16:01:06Z",
         "Duration": "PT1M3S",
-        "Video_Views": 12558,
+        "Video_Views": 12563,
         "Likes_Count": 277,
         "Comments_Count": 12
     },
@@ -1057,7 +1057,7 @@
         "Video_Title": "Add databases to your app with AI Studio | Vibe Coding Guide",
         "Upload_Date": "2026-05-05T21:13:27Z",
         "Duration": "PT4M57S",
-        "Video_Views": 4642,
+        "Video_Views": 4643,
         "Likes_Count": 139,
         "Comments_Count": 11
     },
@@ -1075,7 +1075,7 @@
         "Video_Title": "What you can do with Gemini Embedding 2",
         "Upload_Date": "2026-05-01T19:00:59Z",
         "Duration": "PT1M1S",
-        "Video_Views": 14516,
+        "Video_Views": 14517,
         "Likes_Count": 756,
         "Comments_Count": 9
     },
@@ -1084,7 +1084,7 @@
         "Video_Title": "Trying to log off on Friday before you get another assignment",
         "Upload_Date": "2026-05-01T16:01:13Z",
         "Duration": "PT17S",
-        "Video_Views": 29755,
+        "Video_Views": 29757,
         "Likes_Count": 230,
         "Comments_Count": 19
     },
@@ -1102,7 +1102,7 @@
         "Video_Title": "Building with Gemini Embedding 2: Our first natively multimodal embedding model",
         "Upload_Date": "2026-04-30T19:00:38Z",
         "Duration": "PT11M15S",
-        "Video_Views": 14854,
+        "Video_Views": 14855,
         "Likes_Count": 416,
         "Comments_Count": 29
     },
@@ -1111,7 +1111,7 @@
         "Video_Title": "Announcing Gemma 4, Google I/O ‘26 Updates, and more! - Google Developer News April 2026",
         "Upload_Date": "2026-04-30T16:01:06Z",
         "Duration": "PT5M34S",
-        "Video_Views": 11135,
+        "Video_Views": 11136,
         "Likes_Count": 235,
         "Comments_Count": 29
     },
@@ -1120,7 +1120,7 @@
         "Video_Title": "Building Voice Agents with Gemini Live API and Agora’s Conversational AI",
         "Upload_Date": "2026-04-29T19:00:02Z",
         "Duration": "PT9M24S",
-        "Video_Views": 9468,
+        "Video_Views": 9473,
         "Likes_Count": 230,
         "Comments_Count": 12
     },
@@ -1138,7 +1138,7 @@
         "Video_Title": "5 tips on keeping your code clean with Gemini",
         "Upload_Date": "2026-04-28T19:00:08Z",
         "Duration": "PT15S",
-        "Video_Views": 5582,
+        "Video_Views": 5583,
         "Likes_Count": 153,
         "Comments_Count": 5
     },
@@ -1147,7 +1147,7 @@
         "Video_Title": "Find the commit in the fewest commands!",
         "Upload_Date": "2026-04-27T13:01:07Z",
         "Duration": "PT35S",
-        "Video_Views": 16460,
+        "Video_Views": 16461,
         "Likes_Count": 289,
         "Comments_Count": 19
     },
@@ -1183,7 +1183,7 @@
         "Video_Title": "Explore a high-scale agentic AI-powered simulation sandbox with Gemini Enterprise Agent Platform",
         "Upload_Date": "2026-04-23T19:00:27Z",
         "Duration": "PT10M29S",
-        "Video_Views": 5796,
+        "Video_Views": 5797,
         "Likes_Count": 104,
         "Comments_Count": 5
     },
@@ -1201,7 +1201,7 @@
         "Video_Title": "CLI or MCP?  How should AI agents interact with external tools?",
         "Upload_Date": "2026-04-22T23:00:06Z",
         "Duration": "PT1M42S",
-        "Video_Views": 17981,
+        "Video_Views": 17991,
         "Likes_Count": 775,
         "Comments_Count": 22
     },
@@ -1210,7 +1210,7 @@
         "Video_Title": "Introducing Agents CLI in Agent Platform",
         "Upload_Date": "2026-04-22T16:04:43Z",
         "Duration": "PT4M28S",
-        "Video_Views": 23918,
+        "Video_Views": 23922,
         "Likes_Count": 675,
         "Comments_Count": 27
     },
@@ -1228,7 +1228,7 @@
         "Video_Title": "See the capabilities of Gemini Live in real time",
         "Upload_Date": "2026-04-21T19:00:11Z",
         "Duration": "PT55S",
-        "Video_Views": 12553,
+        "Video_Views": 12554,
         "Likes_Count": 348,
         "Comments_Count": 15
     },
@@ -1246,8 +1246,8 @@
         "Video_Title": "Meet DESIGN.md: A new open standard for AI-generated UI",
         "Upload_Date": "2026-04-21T16:00:28Z",
         "Duration": "PT10M16S",
-        "Video_Views": 121009,
-        "Likes_Count": 3752,
+        "Video_Views": 121030,
+        "Likes_Count": 3753,
         "Comments_Count": 130
     },
     {
@@ -1282,7 +1282,7 @@
         "Video_Title": "Build a Voice-Enabled Telegram Bot with the Gemini Interactions API",
         "Upload_Date": "2026-04-16T16:00:10Z",
         "Duration": "PT9M12S",
-        "Video_Views": 6089,
+        "Video_Views": 6090,
         "Likes_Count": 191,
         "Comments_Count": 9
     },
@@ -1300,7 +1300,7 @@
         "Video_Title": "How to implement Google Pay merchant-initiated transactions",
         "Upload_Date": "2026-04-15T16:00:03Z",
         "Duration": "PT4M54S",
-        "Video_Views": 2325,
+        "Video_Views": 2326,
         "Likes_Count": 73,
         "Comments_Count": 2
     },
@@ -1309,7 +1309,7 @@
         "Video_Title": "Why you should attend Build with AI",
         "Upload_Date": "2026-04-15T04:00:42Z",
         "Duration": "PT34S",
-        "Video_Views": 7637,
+        "Video_Views": 7653,
         "Likes_Count": 150,
         "Comments_Count": 4
     },
@@ -1318,7 +1318,7 @@
         "Video_Title": "4 things devs should know about Gemma 4",
         "Upload_Date": "2026-04-14T19:00:07Z",
         "Duration": "PT1M25S",
-        "Video_Views": 34806,
+        "Video_Views": 34815,
         "Likes_Count": 922,
         "Comments_Count": 25
     },
@@ -1354,7 +1354,7 @@
         "Video_Title": "Google's ADK + MCP = The Future of AI Agents",
         "Upload_Date": "2026-04-10T21:23:19Z",
         "Duration": "PT14M57S",
-        "Video_Views": 5797,
+        "Video_Views": 5798,
         "Likes_Count": 156,
         "Comments_Count": 6
     },
@@ -1363,7 +1363,7 @@
         "Video_Title": "What is the most underrated tool for developers?",
         "Upload_Date": "2026-04-10T04:00:31Z",
         "Duration": "PT38S",
-        "Video_Views": 15693,
+        "Video_Views": 15694,
         "Likes_Count": 324,
         "Comments_Count": 37
     },
@@ -1372,8 +1372,8 @@
         "Video_Title": "How do AI video generation models work?",
         "Upload_Date": "2026-04-09T19:00:36Z",
         "Duration": "PT11M53S",
-        "Video_Views": 9381,
-        "Likes_Count": 430,
+        "Video_Views": 9384,
+        "Likes_Count": 431,
         "Comments_Count": 19
     },
     {
@@ -1381,8 +1381,8 @@
         "Video_Title": "One Design Decision to Create Better Results in Stitch",
         "Upload_Date": "2026-04-09T16:33:55Z",
         "Duration": "PT23M26S",
-        "Video_Views": 60191,
-        "Likes_Count": 2266,
+        "Video_Views": 60197,
+        "Likes_Count": 2267,
         "Comments_Count": 78
     },
     {
@@ -1390,7 +1390,7 @@
         "Video_Title": "Testing tip for devs: Test behaviors, not methods.",
         "Upload_Date": "2026-04-08T23:00:16Z",
         "Duration": "PT1M15S",
-        "Video_Views": 8274,
+        "Video_Views": 8278,
         "Likes_Count": 142,
         "Comments_Count": 9
     },
@@ -1444,7 +1444,7 @@
         "Video_Title": "AIventure: Learning about vibe-coding, agents and Gen AI with Gemma 4",
         "Upload_Date": "2026-04-02T19:01:11Z",
         "Duration": "PT6M24S",
-        "Video_Views": 13082,
+        "Video_Views": 13083,
         "Likes_Count": 323,
         "Comments_Count": 15
     },
@@ -1453,7 +1453,7 @@
         "Video_Title": "What’s new in Gemma 4",
         "Upload_Date": "2026-04-02T16:06:24Z",
         "Duration": "PT2M52S",
-        "Video_Views": 408159,
+        "Video_Views": 408179,
         "Likes_Count": 10962,
         "Comments_Count": 470
     },
@@ -1489,7 +1489,7 @@
         "Video_Title": "Build real-time multimodal agents with Gemini and Pipecat",
         "Upload_Date": "2026-03-31T19:00:14Z",
         "Duration": "PT12M34S",
-        "Video_Views": 8353,
+        "Video_Views": 8355,
         "Likes_Count": 245,
         "Comments_Count": 15
     },
@@ -1498,7 +1498,7 @@
         "Video_Title": "Google AI Studio's new full-stack vibe coding experience",
         "Upload_Date": "2026-03-30T22:09:21Z",
         "Duration": "PT7M36S",
-        "Video_Views": 72569,
+        "Video_Views": 72573,
         "Likes_Count": 341,
         "Comments_Count": 16
     },
@@ -1516,7 +1516,7 @@
         "Video_Title": "Prototype to Production with ADK",
         "Upload_Date": "2026-03-30T19:00:00Z",
         "Duration": "PT45M35S",
-        "Video_Views": 4839,
+        "Video_Views": 4842,
         "Likes_Count": 126,
         "Comments_Count": 13
     },
@@ -1534,7 +1534,7 @@
         "Video_Title": "Build real-time agents with Gemini 3.1 Flash Live!",
         "Upload_Date": "2026-03-27T19:05:05Z",
         "Duration": "PT20S",
-        "Video_Views": 34697,
+        "Video_Views": 34714,
         "Likes_Count": 321,
         "Comments_Count": 8
     },
@@ -1561,7 +1561,7 @@
         "Video_Title": "Building LiveKit Agents with Gemini Live API",
         "Upload_Date": "2026-03-26T17:53:18Z",
         "Duration": "PT11M39S",
-        "Video_Views": 10271,
+        "Video_Views": 10277,
         "Likes_Count": 426,
         "Comments_Count": 23
     },
@@ -1570,7 +1570,7 @@
         "Video_Title": "Building Voice Agents with Gemini 3",
         "Upload_Date": "2026-03-26T15:47:08Z",
         "Duration": "PT23M55S",
-        "Video_Views": 24772,
+        "Video_Views": 24777,
         "Likes_Count": 689,
         "Comments_Count": 31
     },
@@ -1597,7 +1597,7 @@
         "Video_Title": "What will the final count log show in Javascript? And why? Go!",
         "Upload_Date": "2026-03-23T13:01:31Z",
         "Duration": "PT30S",
-        "Video_Views": 6199,
+        "Video_Views": 6200,
         "Likes_Count": 97,
         "Comments_Count": 7
     },
@@ -1741,7 +1741,7 @@
         "Video_Title": "How to Use the Gemini Batch API for Processing Large Datasets",
         "Upload_Date": "2026-03-02T22:44:17Z",
         "Duration": "PT2M49S",
-        "Video_Views": 4345,
+        "Video_Views": 4347,
         "Likes_Count": 79,
         "Comments_Count": 9
     },
@@ -1894,7 +1894,7 @@
         "Video_Title": "Google AI Studio: Account setup, rate limits & usage tracking",
         "Upload_Date": "2026-02-14T00:01:02Z",
         "Duration": "PT1M47S",
-        "Video_Views": 10960,
+        "Video_Views": 10961,
         "Likes_Count": 177,
         "Comments_Count": 18
     },
@@ -1948,7 +1948,7 @@
         "Video_Title": "Gemini in Chrome: Your agentic browsing assistant",
         "Upload_Date": "2026-02-06T20:00:05Z",
         "Duration": "PT48M32S",
-        "Video_Views": 13459,
+        "Video_Views": 13460,
         "Likes_Count": 260,
         "Comments_Count": 47
     },
@@ -2065,7 +2065,7 @@
         "Video_Title": "Developer jargon IRL be like…",
         "Upload_Date": "2026-01-22T05:01:08Z",
         "Duration": "PT26S",
-        "Video_Views": 13872,
+        "Video_Views": 13875,
         "Likes_Count": 134,
         "Comments_Count": 6
     },
@@ -2128,7 +2128,7 @@
         "Video_Title": "Mo’s Story: Starting Families",
         "Upload_Date": "2026-01-16T00:00:23Z",
         "Duration": "PT3M45S",
-        "Video_Views": 2971,
+        "Video_Views": 2973,
         "Likes_Count": 115,
         "Comments_Count": 15
     },
@@ -2146,7 +2146,7 @@
         "Video_Title": "Understanding JAX: JIT, XLA, and Pure Functions Explained",
         "Upload_Date": "2026-01-15T20:00:33Z",
         "Duration": "PT10M6S",
-        "Video_Views": 20895,
+        "Video_Views": 20904,
         "Likes_Count": 774,
         "Comments_Count": 43
     },
@@ -2191,7 +2191,7 @@
         "Video_Title": "Build with AI 2025 Recap",
         "Upload_Date": "2026-01-14T00:00:05Z",
         "Duration": "PT1M1S",
-        "Video_Views": 5337,
+        "Video_Views": 5339,
         "Likes_Count": 123,
         "Comments_Count": 7
     },
@@ -2254,7 +2254,7 @@
         "Video_Title": "Fix your wandering agents via spec-driven development",
         "Upload_Date": "2025-12-24T00:01:23Z",
         "Duration": "PT1M17S",
-        "Video_Views": 16901,
+        "Video_Views": 16907,
         "Likes_Count": 578,
         "Comments_Count": 16
     },
@@ -2272,7 +2272,7 @@
         "Video_Title": "Just in from the news desk 📰: Google Antigravity",
         "Upload_Date": "2025-12-19T17:12:42Z",
         "Duration": "PT1M17S",
-        "Video_Views": 8870,
+        "Video_Views": 8871,
         "Likes_Count": 214,
         "Comments_Count": 24
     },
@@ -2281,7 +2281,7 @@
         "Video_Title": "Introducing FunctionGemma",
         "Upload_Date": "2025-12-19T14:00:30Z",
         "Duration": "PT5M3S",
-        "Video_Views": 333418,
+        "Video_Views": 333420,
         "Likes_Count": 11514,
         "Comments_Count": 341
     },
@@ -2290,7 +2290,7 @@
         "Video_Title": "Keras Recommenders: reliable, state-of-the-art recommendations for ranking and retrieval",
         "Upload_Date": "2025-12-19T05:01:12Z",
         "Duration": "PT9M15S",
-        "Video_Views": 8216,
+        "Video_Views": 8217,
         "Likes_Count": 340,
         "Comments_Count": 8
     },
@@ -2326,7 +2326,7 @@
         "Video_Title": "Individual contributor or manager: choosing your engineering path",
         "Upload_Date": "2025-12-18T17:00:02Z",
         "Duration": "PT5M9S",
-        "Video_Views": 16350,
+        "Video_Views": 16356,
         "Likes_Count": 685,
         "Comments_Count": 16
     },
@@ -2353,7 +2353,7 @@
         "Video_Title": "Build your first Typescript agent with Google ADK",
         "Upload_Date": "2025-12-18T00:01:30Z",
         "Duration": "PT15M44S",
-        "Video_Views": 16938,
+        "Video_Views": 16939,
         "Likes_Count": 637,
         "Comments_Count": 33
     },
@@ -2362,7 +2362,7 @@
         "Video_Title": "Why asking \"why\" can help you build better software",
         "Upload_Date": "2025-12-17T20:00:49Z",
         "Duration": "PT1M3S",
-        "Video_Views": 5355,
+        "Video_Views": 5356,
         "Likes_Count": 171,
         "Comments_Count": 5
     },
@@ -2371,7 +2371,7 @@
         "Video_Title": "Strategic thinking for software engineers: outputs vs outcomes",
         "Upload_Date": "2025-12-17T17:00:32Z",
         "Duration": "PT5M",
-        "Video_Views": 12378,
+        "Video_Views": 12379,
         "Likes_Count": 656,
         "Comments_Count": 15
     },
@@ -2389,7 +2389,7 @@
         "Video_Title": "5 engineering anti-patterns that limit your career",
         "Upload_Date": "2025-12-16T17:01:04Z",
         "Duration": "PT6M25S",
-        "Video_Views": 38508,
+        "Video_Views": 38510,
         "Likes_Count": 2108,
         "Comments_Count": 53
     },
@@ -2452,7 +2452,7 @@
         "Video_Title": "How to become a \"T-shaped\" software engineer",
         "Upload_Date": "2025-12-11T17:02:24Z",
         "Duration": "PT9M22S",
-        "Video_Views": 70963,
+        "Video_Views": 70964,
         "Likes_Count": 4340,
         "Comments_Count": 84
     },
@@ -2479,7 +2479,7 @@
         "Video_Title": "3 skills every early-career engineer needs",
         "Upload_Date": "2025-12-10T17:00:47Z",
         "Duration": "PT6M32S",
-        "Video_Views": 48891,
+        "Video_Views": 48897,
         "Likes_Count": 2839,
         "Comments_Count": 122
     },
@@ -2488,7 +2488,7 @@
         "Video_Title": "A2A and MCP explained: with ADK",
         "Upload_Date": "2025-12-10T00:00:39Z",
         "Duration": "PT24M53S",
-        "Video_Views": 10644,
+        "Video_Views": 10646,
         "Likes_Count": 329,
         "Comments_Count": 13
     },
@@ -2578,7 +2578,7 @@
         "Video_Title": "Software engineering: efficiency vs. effectiveness",
         "Upload_Date": "2025-12-09T17:24:28Z",
         "Duration": "PT10M6S",
-        "Video_Views": 32483,
+        "Video_Views": 32484,
         "Likes_Count": 1999,
         "Comments_Count": 56
     },
@@ -2632,7 +2632,7 @@
         "Video_Title": "NumPy & JAX NumPy (Part 2)",
         "Upload_Date": "2025-12-04T05:01:16Z",
         "Duration": "PT6M18S",
-        "Video_Views": 724,
+        "Video_Views": 725,
         "Likes_Count": 26,
         "Comments_Count": 1
     },
@@ -2722,7 +2722,7 @@
         "Video_Title": "Introducing Flax NNX (Part 3)",
         "Upload_Date": "2025-12-04T05:00:45Z",
         "Duration": "PT6M3S",
-        "Video_Views": 1336,
+        "Video_Views": 1337,
         "Likes_Count": 21,
         "Comments_Count": 2
     },
@@ -2731,7 +2731,7 @@
         "Video_Title": "Checkpointing Flax NNX Models with Orbax (Part 2)",
         "Upload_Date": "2025-12-04T05:00:33Z",
         "Duration": "PT12M13S",
-        "Video_Views": 282,
+        "Video_Views": 283,
         "Likes_Count": 9,
         "Comments_Count": 1
     },
@@ -2767,7 +2767,7 @@
         "Video_Title": "Introducing Flax NNX (Part 1)",
         "Upload_Date": "2025-12-04T05:00:12Z",
         "Duration": "PT10M32S",
-        "Video_Views": 2293,
+        "Video_Views": 2296,
         "Likes_Count": 49,
         "Comments_Count": 3
     },
@@ -2803,7 +2803,7 @@
         "Video_Title": "Checkpointing Flax NNX Models with Orbax (Part 1)",
         "Upload_Date": "2025-12-04T05:00:05Z",
         "Duration": "PT13M12S",
-        "Video_Views": 451,
+        "Video_Views": 452,
         "Likes_Count": 13,
         "Comments_Count": 0
     },
@@ -2830,7 +2830,7 @@
         "Video_Title": "Stunning Visualizations with AI-First Colab",
         "Upload_Date": "2025-12-04T00:01:01Z",
         "Duration": "PT7M43S",
-        "Video_Views": 6736,
+        "Video_Views": 6737,
         "Likes_Count": 275,
         "Comments_Count": 14
     },
@@ -2839,7 +2839,7 @@
         "Video_Title": "How to secure your AI Agents: A Technical Deep-dive",
         "Upload_Date": "2025-12-03T20:00:58Z",
         "Duration": "PT24M1S",
-        "Video_Views": 10901,
+        "Video_Views": 10905,
         "Likes_Count": 313,
         "Comments_Count": 10
     },
@@ -2857,7 +2857,7 @@
         "Video_Title": "How do thinking and reasoning models work?",
         "Upload_Date": "2025-12-03T17:59:21Z",
         "Duration": "PT13M26S",
-        "Video_Views": 42781,
+        "Video_Views": 42789,
         "Likes_Count": 1401,
         "Comments_Count": 39
     },
@@ -2875,7 +2875,7 @@
         "Video_Title": "End to End Machine Learning with AI First Colab",
         "Upload_Date": "2025-12-02T20:00:37Z",
         "Duration": "PT6M38S",
-        "Video_Views": 9809,
+        "Video_Views": 9810,
         "Likes_Count": 391,
         "Comments_Count": 9
     },
@@ -2884,7 +2884,7 @@
         "Video_Title": "How to build an AI agent with MCP, ADK, and A2A on Google Cloud",
         "Upload_Date": "2025-12-02T17:00:25Z",
         "Duration": "PT14M33S",
-        "Video_Views": 46204,
+        "Video_Views": 46215,
         "Likes_Count": 1454,
         "Comments_Count": 30
     },
@@ -2912,7 +2912,7 @@
         "Upload_Date": "2025-12-02T05:01:16Z",
         "Duration": "PT3M13S",
         "Video_Views": 36310,
-        "Likes_Count": 663,
+        "Likes_Count": 662,
         "Comments_Count": 19
     },
     {
@@ -2965,7 +2965,7 @@
         "Video_Title": "Building \"AI Studio in AI Studio\" (feat: Google Antigravity)",
         "Upload_Date": "2025-12-02T05:01:05Z",
         "Duration": "PT5M15S",
-        "Video_Views": 27314,
+        "Video_Views": 27315,
         "Likes_Count": 160,
         "Comments_Count": 12
     },
@@ -3073,7 +3073,7 @@
         "Video_Title": "Vibe Coding 3D Landing Pages with Gemini 3",
         "Upload_Date": "2025-12-02T05:00:22Z",
         "Duration": "PT1M30S",
-        "Video_Views": 709,
+        "Video_Views": 710,
         "Likes_Count": 13,
         "Comments_Count": 1
     },
@@ -3082,7 +3082,7 @@
         "Video_Title": "Building an Interactive News App with Nano Banana Pro",
         "Upload_Date": "2025-12-02T05:00:17Z",
         "Duration": "PT2M23S",
-        "Video_Views": 719,
+        "Video_Views": 720,
         "Likes_Count": 27,
         "Comments_Count": 0
     },
@@ -3172,7 +3172,7 @@
         "Video_Title": "What is Google Antigravity?",
         "Upload_Date": "2025-12-01T18:00:16Z",
         "Duration": "PT1M19S",
-        "Video_Views": 86757,
+        "Video_Views": 86778,
         "Likes_Count": 1323,
         "Comments_Count": 32
     },
@@ -3262,7 +3262,7 @@
         "Video_Title": "Build an AI Agent with Gemini 3",
         "Upload_Date": "2025-11-20T21:45:49Z",
         "Duration": "PT6M23S",
-        "Video_Views": 170857,
+        "Video_Views": 170878,
         "Likes_Count": 3391,
         "Comments_Count": 134
     },
@@ -3298,7 +3298,7 @@
         "Video_Title": "Google Antigravity: Hands on with our new agentic development platform",
         "Upload_Date": "2025-11-20T04:40:52Z",
         "Duration": "PT44M50S",
-        "Video_Views": 50013,
+        "Video_Views": 50016,
         "Likes_Count": 944,
         "Comments_Count": 86
     },
@@ -3307,7 +3307,7 @@
         "Video_Title": "Gemini 3 for Developers",
         "Upload_Date": "2025-11-19T20:03:14Z",
         "Duration": "PT9M22S",
-        "Video_Views": 400635,
+        "Video_Views": 400636,
         "Likes_Count": 1420,
         "Comments_Count": 59
     },
@@ -3325,7 +3325,7 @@
         "Video_Title": "Vibe coding with Gemini 3 in AI Studio",
         "Upload_Date": "2025-11-18T20:00:53Z",
         "Duration": "PT11M20S",
-        "Video_Views": 210428,
+        "Video_Views": 210433,
         "Likes_Count": 1412,
         "Comments_Count": 70
     },
@@ -3343,7 +3343,7 @@
         "Video_Title": "Why does this throw a null pointer exception?  Go!",
         "Upload_Date": "2025-11-17T14:00:21Z",
         "Duration": "PT17S",
-        "Video_Views": 6095,
+        "Video_Views": 6097,
         "Likes_Count": 62,
         "Comments_Count": 12
     },
@@ -3424,7 +3424,7 @@
         "Video_Title": "Building AI Agents with ADK Go",
         "Upload_Date": "2025-11-07T17:13:59Z",
         "Duration": "PT10M2S",
-        "Video_Views": 20088,
+        "Video_Views": 20089,
         "Likes_Count": 658,
         "Comments_Count": 34
     },
@@ -3469,7 +3469,7 @@
         "Video_Title": "How to get started on Opal",
         "Upload_Date": "2025-11-05T20:35:20Z",
         "Duration": "PT6M47S",
-        "Video_Views": 95026,
+        "Video_Views": 95054,
         "Likes_Count": 1778,
         "Comments_Count": 86
     },
@@ -3532,7 +3532,7 @@
         "Video_Title": "Connecting Gemini API to the Outside World with Tools | Intro to Tools",
         "Upload_Date": "2025-10-30T22:20:02Z",
         "Duration": "PT2M56S",
-        "Video_Views": 11890,
+        "Video_Views": 11891,
         "Likes_Count": 199,
         "Comments_Count": 7
     },
@@ -3559,7 +3559,7 @@
         "Video_Title": "Dev Debates: small commits or big commits? Tests before or after?",
         "Upload_Date": "2025-10-29T04:01:00Z",
         "Duration": "PT46S",
-        "Video_Views": 12316,
+        "Video_Views": 12318,
         "Likes_Count": 170,
         "Comments_Count": 15
     },
@@ -3604,7 +3604,7 @@
         "Video_Title": "Vibe Code with Your Voice in Google AI Studio",
         "Upload_Date": "2025-10-24T18:45:14Z",
         "Duration": "PT1M10S",
-        "Video_Views": 12225,
+        "Video_Views": 12227,
         "Likes_Count": 95,
         "Comments_Count": 5
     },
@@ -3613,7 +3613,7 @@
         "Video_Title": "New & Improved API Key and Project Management in Google AI Studio",
         "Upload_Date": "2025-10-24T18:35:46Z",
         "Duration": "PT2M14S",
-        "Video_Views": 8847,
+        "Video_Views": 8848,
         "Likes_Count": 83,
         "Comments_Count": 7
     },
@@ -3622,7 +3622,7 @@
         "Video_Title": "Overview of the new vibe coding experience in AI Studio",
         "Upload_Date": "2025-10-24T18:34:43Z",
         "Duration": "PT4M41S",
-        "Video_Views": 33982,
+        "Video_Views": 33986,
         "Likes_Count": 495,
         "Comments_Count": 18
     },
@@ -3631,7 +3631,7 @@
         "Video_Title": "Explore the new App Gallery in AI Studio",
         "Upload_Date": "2025-10-24T18:09:10Z",
         "Duration": "PT2M25S",
-        "Video_Views": 8741,
+        "Video_Views": 8743,
         "Likes_Count": 80,
         "Comments_Count": 3
     },
@@ -3640,7 +3640,7 @@
         "Video_Title": "Introducing Annotation Mode in AI Studio",
         "Upload_Date": "2025-10-24T17:15:38Z",
         "Duration": "PT2M",
-        "Video_Views": 14072,
+        "Video_Views": 14074,
         "Likes_Count": 197,
         "Comments_Count": 10
     },
@@ -3676,7 +3676,7 @@
         "Video_Title": "Introducing the new vibe coding in AI Studio",
         "Upload_Date": "2025-10-22T20:54:56Z",
         "Duration": "PT2M8S",
-        "Video_Views": 68197,
+        "Video_Views": 68216,
         "Likes_Count": 909,
         "Comments_Count": 44
     },
@@ -3739,7 +3739,7 @@
         "Video_Title": "Curing primitive obsession with better types 🪄",
         "Upload_Date": "2025-10-15T16:10:05Z",
         "Duration": "PT57S",
-        "Video_Views": 6342,
+        "Video_Views": 6343,
         "Likes_Count": 170,
         "Comments_Count": 5
     },
@@ -3784,7 +3784,7 @@
         "Video_Title": "Supercharge Your Workflows with AI-First Colab",
         "Upload_Date": "2025-10-09T23:00:34Z",
         "Duration": "PT7M39S",
-        "Video_Views": 15241,
+        "Video_Views": 15244,
         "Likes_Count": 456,
         "Comments_Count": 17
     },
@@ -3829,7 +3829,7 @@
         "Video_Title": "How to build AI agents with memory",
         "Upload_Date": "2025-10-06T23:00:56Z",
         "Duration": "PT44M44S",
-        "Video_Views": 13286,
+        "Video_Views": 13288,
         "Likes_Count": 294,
         "Comments_Count": 17
     },
@@ -3874,9 +3874,9 @@
         "Video_Title": "5 things you can do with Gemini CLI!",
         "Upload_Date": "2025-10-01T04:00:56Z",
         "Duration": "PT1M9S",
-        "Video_Views": 92390,
+        "Video_Views": 92407,
         "Likes_Count": 2026,
-        "Comments_Count": 37
+        "Comments_Count": 38
     },
     {
         "Video_ID": "BxOrnFtdKGM",
@@ -3937,7 +3937,7 @@
         "Video_Title": "Create videos from the terminal with Gemini CLI and the Veo MCP server",
         "Upload_Date": "2025-09-25T19:00:00Z",
         "Duration": "PT1M5S",
-        "Video_Views": 10126,
+        "Video_Views": 10128,
         "Likes_Count": 346,
         "Comments_Count": 9
     },
@@ -3964,7 +3964,7 @@
         "Video_Title": "Google Developer Groups and Organizers",
         "Upload_Date": "2025-09-24T23:00:49Z",
         "Duration": "PT5M42S",
-        "Video_Views": 1646,
+        "Video_Views": 1648,
         "Likes_Count": 44,
         "Comments_Count": 3
     },
@@ -4036,7 +4036,7 @@
         "Video_Title": "Complicated tests may hide bugs. Simple tests expose them.",
         "Upload_Date": "2025-09-18T04:00:32Z",
         "Duration": "PT59S",
-        "Video_Views": 5296,
+        "Video_Views": 5297,
         "Likes_Count": 252,
         "Comments_Count": 4
     },
@@ -4081,7 +4081,7 @@
         "Video_Title": "AI coding with Gemini CLI - Google's terminal agentic coding tool",
         "Upload_Date": "2025-09-16T13:04:18Z",
         "Duration": "PT38M29S",
-        "Video_Views": 42615,
+        "Video_Views": 42619,
         "Likes_Count": 796,
         "Comments_Count": 76
     },
@@ -4135,7 +4135,7 @@
         "Video_Title": "Introduction to Model Context Protocol (MCP)",
         "Upload_Date": "2025-09-09T23:00:20Z",
         "Duration": "PT1M10S",
-        "Video_Views": 15575,
+        "Video_Views": 15576,
         "Likes_Count": 611,
         "Comments_Count": 11
     },
@@ -4153,7 +4153,7 @@
         "Video_Title": "Learn to Build with Gemini Nano-Banana (Gemini 2.5 Flash Image)",
         "Upload_Date": "2025-09-05T23:00:52Z",
         "Duration": "PT10M42S",
-        "Video_Views": 90393,
+        "Video_Views": 90394,
         "Likes_Count": 939,
         "Comments_Count": 30
     },
@@ -4180,7 +4180,7 @@
         "Video_Title": "Introducing EmbeddingGemma: The Best-in-Class Open Model for On-Device Embeddings",
         "Upload_Date": "2025-09-04T16:02:40Z",
         "Duration": "PT4M13S",
-        "Video_Views": 122765,
+        "Video_Views": 122769,
         "Likes_Count": 4586,
         "Comments_Count": 215
     },
@@ -4234,7 +4234,7 @@
         "Video_Title": "Power up your LLMs: Gemini CLI and Model Context Protocol (MCP)",
         "Upload_Date": "2025-08-29T16:00:23Z",
         "Duration": "PT9M3S",
-        "Video_Views": 80699,
+        "Video_Views": 80702,
         "Likes_Count": 2502,
         "Comments_Count": 93
     },
@@ -4279,7 +4279,7 @@
         "Video_Title": "Evaluate your AI with Stax",
         "Upload_Date": "2025-08-27T17:00:40Z",
         "Duration": "PT4M13S",
-        "Video_Views": 29661,
+        "Video_Views": 29662,
         "Likes_Count": 734,
         "Comments_Count": 31
     },
@@ -4369,7 +4369,7 @@
         "Video_Title": "Can you tell I work at Google?",
         "Upload_Date": "2025-08-20T04:00:09Z",
         "Duration": "PT12S",
-        "Video_Views": 43375,
+        "Video_Views": 43383,
         "Likes_Count": 481,
         "Comments_Count": 26
     },
@@ -4405,7 +4405,7 @@
         "Video_Title": "Introducing Opal",
         "Upload_Date": "2025-08-18T19:17:20Z",
         "Duration": "PT2M4S",
-        "Video_Views": 390658,
+        "Video_Views": 390662,
         "Likes_Count": 3552,
         "Comments_Count": 279
     },
@@ -4432,7 +4432,7 @@
         "Video_Title": "Using AI to analyze cricket swings",
         "Upload_Date": "2025-08-13T01:00:32Z",
         "Duration": "PT1M52S",
-        "Video_Views": 6466,
+        "Video_Views": 6468,
         "Likes_Count": 234,
         "Comments_Count": 13
     },
@@ -4486,7 +4486,7 @@
         "Video_Title": "Get code samples, AI patterns, and prompt libraries to help you build with Angular",
         "Upload_Date": "2025-08-07T17:08:38Z",
         "Duration": "PT1M17S",
-        "Video_Views": 13298,
+        "Video_Views": 13305,
         "Likes_Count": 519,
         "Comments_Count": 8
     },
@@ -4495,7 +4495,7 @@
         "Video_Title": "POV: You've been coding solo for years and suddenly a wild programmer appears.",
         "Upload_Date": "2025-08-07T01:00:10Z",
         "Duration": "PT5S",
-        "Video_Views": 108725,
+        "Video_Views": 108727,
         "Likes_Count": 888,
         "Comments_Count": 16
     },
@@ -4657,7 +4657,7 @@
         "Video_Title": "The future is Autonomous AI agents",
         "Upload_Date": "2025-07-24T19:01:02Z",
         "Duration": "PT30S",
-        "Video_Views": 8326,
+        "Video_Views": 8328,
         "Likes_Count": 168,
         "Comments_Count": 2
     },
@@ -4675,7 +4675,7 @@
         "Video_Title": "Should your mobile AI run on-device or in the cloud?",
         "Upload_Date": "2025-07-24T04:00:07Z",
         "Duration": "PT47S",
-        "Video_Views": 12445,
+        "Video_Views": 12446,
         "Likes_Count": 383,
         "Comments_Count": 1
     },
@@ -4900,7 +4900,7 @@
         "Video_Title": "Veo 3 is now available in preview!",
         "Upload_Date": "2025-07-17T16:55:10Z",
         "Duration": "PT1M51S",
-        "Video_Views": 88412,
+        "Video_Views": 88413,
         "Likes_Count": 1125,
         "Comments_Count": 86
     },
@@ -4990,7 +4990,7 @@
         "Video_Title": "These bugs are really playing hide and seek.",
         "Upload_Date": "2025-07-09T04:00:40Z",
         "Duration": "PT13S",
-        "Video_Views": 7597,
+        "Video_Views": 7598,
         "Likes_Count": 84,
         "Comments_Count": 10
     },
@@ -5125,7 +5125,7 @@
         "Video_Title": "Gemini CLI: Vibe coding and deploying Hello World to Cloud Run!",
         "Upload_Date": "2025-06-25T13:00:49Z",
         "Duration": "PT59S",
-        "Video_Views": 56157,
+        "Video_Views": 56166,
         "Likes_Count": 1175,
         "Comments_Count": 28
     },
@@ -5161,7 +5161,7 @@
         "Video_Title": "Build AI agents for e-commerce with ADK + Vector Search",
         "Upload_Date": "2025-06-18T23:00:36Z",
         "Duration": "PT30M12S",
-        "Video_Views": 27064,
+        "Video_Views": 27067,
         "Likes_Count": 520,
         "Comments_Count": 21
     },
@@ -5170,7 +5170,7 @@
         "Video_Title": "Deep dive on long context in Gemma 3",
         "Upload_Date": "2025-06-18T20:00:13Z",
         "Duration": "PT4M39S",
-        "Video_Views": 5772,
+        "Video_Views": 5773,
         "Likes_Count": 201,
         "Comments_Count": 9
     },
@@ -5179,7 +5179,7 @@
         "Video_Title": "Google Wallet Passes: Are you making the most of your links?",
         "Upload_Date": "2025-06-18T16:46:22Z",
         "Duration": "PT40M49S",
-        "Video_Views": 3638,
+        "Video_Views": 3640,
         "Likes_Count": 114,
         "Comments_Count": 10
     },
@@ -5305,8 +5305,8 @@
         "Video_Title": "Hugging Face + Gemma  = 🪄",
         "Upload_Date": "2025-06-07T01:08:55Z",
         "Duration": "PT1M2S",
-        "Video_Views": 6781,
-        "Likes_Count": 269,
+        "Video_Views": 6783,
+        "Likes_Count": 270,
         "Comments_Count": 6
     },
     {
@@ -5368,7 +5368,7 @@
         "Video_Title": "What will this log and why? Go!",
         "Upload_Date": "2025-06-02T13:00:42Z",
         "Duration": "PT22S",
-        "Video_Views": 5861,
+        "Video_Views": 5862,
         "Likes_Count": 113,
         "Comments_Count": 11
     },
@@ -5404,7 +5404,7 @@
         "Video_Title": "Build your first Java agent with Google ADK",
         "Upload_Date": "2025-05-29T04:00:38Z",
         "Duration": "PT16M19S",
-        "Video_Views": 19002,
+        "Video_Views": 19009,
         "Likes_Count": 506,
         "Comments_Count": 48
     },
@@ -5431,7 +5431,7 @@
         "Video_Title": "Announcing Gemma 3n Preview: Powerful, Efficient, Mobile-First AI",
         "Upload_Date": "2025-05-27T20:00:15Z",
         "Duration": "PT5M48S",
-        "Video_Views": 322129,
+        "Video_Views": 322130,
         "Likes_Count": 7822,
         "Comments_Count": 360
     },
@@ -5467,7 +5467,7 @@
         "Video_Title": "Darren Aronofsky and Demis Hassabis on storytelling in the age of AI",
         "Upload_Date": "2025-05-23T22:39:22Z",
         "Duration": "PT42M44S",
-        "Video_Views": 18747,
+        "Video_Views": 18748,
         "Likes_Count": 432,
         "Comments_Count": 47
     },
@@ -5485,7 +5485,7 @@
         "Video_Title": "Waymo: AI in the physical world powering the future of driving",
         "Upload_Date": "2025-05-23T19:43:50Z",
         "Duration": "PT30M16S",
-        "Video_Views": 77136,
+        "Video_Views": 77137,
         "Likes_Count": 1497,
         "Comments_Count": 135
     },
@@ -5494,7 +5494,7 @@
         "Video_Title": "Sergey Brin on the Future of AI & Gemini",
         "Upload_Date": "2025-05-23T19:00:17Z",
         "Duration": "PT27M20S",
-        "Video_Views": 49446,
+        "Video_Views": 49450,
         "Likes_Count": 1216,
         "Comments_Count": 221
     },
@@ -5557,7 +5557,7 @@
         "Video_Title": "What’s new in Android (Google I/O 2025 recap)",
         "Upload_Date": "2025-05-22T17:58:49Z",
         "Duration": "PT51S",
-        "Video_Views": 11031090,
+        "Video_Views": 11031094,
         "Likes_Count": 19033,
         "Comments_Count": 31
     },
@@ -5674,7 +5674,7 @@
         "Video_Title": "#GoogleIO 2025 Developer Keynote Recap",
         "Upload_Date": "2025-05-21T00:09:07Z",
         "Duration": "PT3M44S",
-        "Video_Views": 46095806,
+        "Video_Views": 46095807,
         "Likes_Count": 2968,
         "Comments_Count": 132
     },
@@ -5701,7 +5701,7 @@
         "Video_Title": "Google I/O '25 Developer Keynote",
         "Upload_Date": "2025-05-20T21:47:19Z",
         "Duration": "PT1H10M4S",
-        "Video_Views": 843734,
+        "Video_Views": 843741,
         "Likes_Count": 8548,
         "Comments_Count": 234
     },
@@ -5719,7 +5719,7 @@
         "Video_Title": "What’s new in Gemini (Google I/O 2025 recap)",
         "Upload_Date": "2025-05-20T21:41:08Z",
         "Duration": "PT50S",
-        "Video_Views": 13087830,
+        "Video_Views": 13087832,
         "Likes_Count": 14038,
         "Comments_Count": 25
     },
@@ -5764,7 +5764,7 @@
         "Video_Title": "Build a Multimodal Live Streaming Agent with ADK",
         "Upload_Date": "2025-05-16T13:01:02Z",
         "Duration": "PT20M55S",
-        "Video_Views": 22477,
+        "Video_Views": 22478,
         "Likes_Count": 464,
         "Comments_Count": 52
     },
@@ -5899,7 +5899,7 @@
         "Video_Title": "Build a Browser Use Agent with ADK and Selenium",
         "Upload_Date": "2025-05-05T23:00:56Z",
         "Duration": "PT37M17S",
-        "Video_Views": 20211,
+        "Video_Views": 20214,
         "Likes_Count": 458,
         "Comments_Count": 23
     },
@@ -6034,7 +6034,7 @@
         "Video_Title": "How to build a Data Science agent with ADK",
         "Upload_Date": "2025-04-22T20:56:53Z",
         "Duration": "PT48M50S",
-        "Video_Views": 47270,
+        "Video_Views": 47275,
         "Likes_Count": 1017,
         "Comments_Count": 59
     },
@@ -6043,8 +6043,8 @@
         "Video_Title": "Code & Groove: I/O Inspired Ambient Beats for Deep Work",
         "Upload_Date": "2025-04-22T20:00:38Z",
         "Duration": "PT1H32S",
-        "Video_Views": 8154,
-        "Likes_Count": 336,
+        "Video_Views": 8155,
+        "Likes_Count": 335,
         "Comments_Count": 24
     },
     {
@@ -6052,7 +6052,7 @@
         "Video_Title": "Build a Data Science Agent with ADK",
         "Upload_Date": "2025-04-22T19:00:16Z",
         "Duration": "PT21S",
-        "Video_Views": 9122,
+        "Video_Views": 9124,
         "Likes_Count": 93,
         "Comments_Count": 1
     },
@@ -6088,7 +6088,7 @@
         "Video_Title": "Getting started with Agent Development Kit",
         "Upload_Date": "2025-04-16T23:00:04Z",
         "Duration": "PT18M45S",
-        "Video_Views": 152438,
+        "Video_Views": 152452,
         "Likes_Count": 3201,
         "Comments_Count": 159
     },
@@ -6097,7 +6097,7 @@
         "Video_Title": "Build an agent-powered travel planning app with Generative AI",
         "Upload_Date": "2025-04-16T21:36:56Z",
         "Duration": "PT5M",
-        "Video_Views": 19926,
+        "Video_Views": 19929,
         "Likes_Count": 301,
         "Comments_Count": 12
     },
@@ -6169,7 +6169,7 @@
         "Video_Title": "What is the Agent Development Kit (ADK)?",
         "Upload_Date": "2025-04-10T19:59:43Z",
         "Duration": "PT49S",
-        "Video_Views": 39683,
+        "Video_Views": 39689,
         "Likes_Count": 1018,
         "Comments_Count": 13
     },
@@ -6178,8 +6178,8 @@
         "Video_Title": "Build a multimodal, multi-agent with ADK in 37 lines of code",
         "Upload_Date": "2025-04-10T19:59:25Z",
         "Duration": "PT1M17S",
-        "Video_Views": 51363,
-        "Likes_Count": 1798,
+        "Video_Views": 51368,
+        "Likes_Count": 1799,
         "Comments_Count": 22
     },
     {
@@ -6187,8 +6187,8 @@
         "Video_Title": "Introducing Agent Development Kit",
         "Upload_Date": "2025-04-10T19:59:09Z",
         "Duration": "PT8M48S",
-        "Video_Views": 397624,
-        "Likes_Count": 9761,
+        "Video_Views": 397645,
+        "Likes_Count": 9762,
         "Comments_Count": 394
     },
     {
@@ -6214,7 +6214,7 @@
         "Video_Title": "The Google Developer Program",
         "Upload_Date": "2025-04-09T12:39:35Z",
         "Duration": "PT1M1S",
-        "Video_Views": 112903,
+        "Video_Views": 112906,
         "Likes_Count": 862,
         "Comments_Count": 38
     },
@@ -6385,7 +6385,7 @@
         "Video_Title": "LeRobot – Lowering the entry barrier to AI for robotics",
         "Upload_Date": "2025-04-02T16:00:35Z",
         "Duration": "PT14M55S",
-        "Video_Views": 75848,
+        "Video_Views": 75850,
         "Likes_Count": 2486,
         "Comments_Count": 58
     },
@@ -6403,7 +6403,7 @@
         "Video_Title": "Deepdive into Gemma 3",
         "Upload_Date": "2025-04-02T16:00:29Z",
         "Duration": "PT26M48S",
-        "Video_Views": 31054,
+        "Video_Views": 31055,
         "Likes_Count": 717,
         "Comments_Count": 44
     },
@@ -6511,7 +6511,7 @@
         "Video_Title": "Who will be crowned the I/O Puzzle champ?",
         "Upload_Date": "2025-03-28T16:08:15Z",
         "Duration": "PT53S",
-        "Video_Views": 3760,
+        "Video_Views": 3761,
         "Likes_Count": 85,
         "Comments_Count": 3
     },
@@ -6520,7 +6520,7 @@
         "Video_Title": "Look Ma, no keys! Signing JWTs with the Google Cloud API",
         "Upload_Date": "2025-03-27T16:39:19Z",
         "Duration": "PT38M28S",
-        "Video_Views": 2989,
+        "Video_Views": 2990,
         "Likes_Count": 78,
         "Comments_Count": 2
     },
@@ -6610,7 +6610,7 @@
         "Video_Title": "Use Gemini as a coding assistant!",
         "Upload_Date": "2025-03-17T16:00:28Z",
         "Duration": "PT59S",
-        "Video_Views": 18551,
+        "Video_Views": 18556,
         "Likes_Count": 886,
         "Comments_Count": 21
     },
@@ -6637,7 +6637,7 @@
         "Video_Title": "What’s new in Gemma 3?",
         "Upload_Date": "2025-03-12T07:31:27Z",
         "Duration": "PT4M21S",
-        "Video_Views": 188206,
+        "Video_Views": 188207,
         "Likes_Count": 5114,
         "Comments_Count": 280
     },
@@ -6907,7 +6907,7 @@
         "Video_Title": "An introduction to Google Summer of Code",
         "Upload_Date": "2025-01-29T22:55:44Z",
         "Duration": "PT3M19S",
-        "Video_Views": 105384,
+        "Video_Views": 105388,
         "Likes_Count": 2239,
         "Comments_Count": 54
     },
@@ -7132,7 +7132,7 @@
         "Video_Title": "GSoC: CNCF",
         "Upload_Date": "2025-01-29T22:46:38Z",
         "Duration": "PT2M42S",
-        "Video_Views": 654,
+        "Video_Views": 655,
         "Likes_Count": 15,
         "Comments_Count": 1
     },
@@ -7177,7 +7177,7 @@
         "Video_Title": "Integrate Google Pay with Jetpack Compose on Android",
         "Upload_Date": "2025-01-22T17:55:13Z",
         "Duration": "PT51M51S",
-        "Video_Views": 4161,
+        "Video_Views": 4162,
         "Likes_Count": 120,
         "Comments_Count": 5
     },
@@ -7285,7 +7285,7 @@
         "Video_Title": "Building with Gemini 2.0: Video understanding",
         "Upload_Date": "2024-12-16T20:54:16Z",
         "Duration": "PT3M18S",
-        "Video_Views": 22675,
+        "Video_Views": 22676,
         "Likes_Count": 682,
         "Comments_Count": 38
     },
@@ -7384,7 +7384,7 @@
         "Video_Title": "Building with Gemini 2.0: Native tool use",
         "Upload_Date": "2024-12-11T15:26:37Z",
         "Duration": "PT2M39S",
-        "Video_Views": 40246,
+        "Video_Views": 40247,
         "Likes_Count": 543,
         "Comments_Count": 19
     },
@@ -7393,7 +7393,7 @@
         "Video_Title": "Building with Gemini 2.0: Native audio output",
         "Upload_Date": "2024-12-11T15:26:18Z",
         "Duration": "PT3M44S",
-        "Video_Views": 63116,
+        "Video_Views": 63117,
         "Likes_Count": 2342,
         "Comments_Count": 146
     },
@@ -7483,7 +7483,7 @@
         "Video_Title": "Sending passes to Google Wallet with Auto Linked Passes",
         "Upload_Date": "2024-12-05T17:36:48Z",
         "Duration": "PT36M2S",
-        "Video_Views": 2353,
+        "Video_Views": 2354,
         "Likes_Count": 73,
         "Comments_Count": 2
     },
@@ -7546,7 +7546,7 @@
         "Video_Title": "Prompt to production: Building an AI app with Flutter",
         "Upload_Date": "2024-12-04T17:01:03Z",
         "Duration": "PT14M8S",
-        "Video_Views": 13302,
+        "Video_Views": 13303,
         "Likes_Count": 273,
         "Comments_Count": 14
     },
@@ -7870,7 +7870,7 @@
         "Video_Title": "Get started developing with Gemini API",
         "Upload_Date": "2024-11-08T17:00:25Z",
         "Duration": "PT1M23S",
-        "Video_Views": 122903,
+        "Video_Views": 122935,
         "Likes_Count": 2929,
         "Comments_Count": 45
     },
@@ -7897,7 +7897,7 @@
         "Video_Title": "Introducing Grounding with Google Search",
         "Upload_Date": "2024-11-01T18:08:38Z",
         "Duration": "PT1M15S",
-        "Video_Views": 4760,
+        "Video_Views": 4762,
         "Likes_Count": 92,
         "Comments_Count": 6
     },
@@ -7915,7 +7915,7 @@
         "Video_Title": "Grounding with Google Search now in Google AI Studio and the Gemini API",
         "Upload_Date": "2024-10-31T18:00:15Z",
         "Duration": "PT16M44S",
-        "Video_Views": 17524,
+        "Video_Views": 17525,
         "Likes_Count": 314,
         "Comments_Count": 24
     },
@@ -8068,7 +8068,7 @@
         "Video_Title": "Demo: DataGemma: Grounding LLMs with Data Commons data",
         "Upload_Date": "2024-10-18T16:00:38Z",
         "Duration": "PT7M2S",
-        "Video_Views": 7433,
+        "Video_Views": 7435,
         "Likes_Count": 42,
         "Comments_Count": 2
     },
@@ -8149,8 +8149,8 @@
         "Video_Title": "Run AI locally, with Gemma!",
         "Upload_Date": "2024-10-11T04:00:14Z",
         "Duration": "PT15S",
-        "Video_Views": 123213,
-        "Likes_Count": 1285,
+        "Video_Views": 123286,
+        "Likes_Count": 1286,
         "Comments_Count": 24
     },
     {
@@ -8311,7 +8311,7 @@
         "Video_Title": "Build an AI-powered Flutter code generator with Gemini API!",
         "Upload_Date": "2024-09-20T19:41:08Z",
         "Duration": "PT45S",
-        "Video_Views": 3352,
+        "Video_Views": 3354,
         "Likes_Count": 115,
         "Comments_Count": 1
     },
@@ -8401,8 +8401,8 @@
         "Video_Title": "Let's learn C++!",
         "Upload_Date": "2024-09-13T21:05:58Z",
         "Duration": "PT8S",
-        "Video_Views": 935758,
-        "Likes_Count": 10688,
+        "Video_Views": 935936,
+        "Likes_Count": 10691,
         "Comments_Count": 262
     },
     {
@@ -8446,7 +8446,7 @@
         "Video_Title": "Machine Learning Crash Course: Embeddings",
         "Upload_Date": "2024-09-09T16:10:25Z",
         "Duration": "PT2M37S",
-        "Video_Views": 73454,
+        "Video_Views": 73466,
         "Likes_Count": 773,
         "Comments_Count": 15
     },
@@ -8500,7 +8500,7 @@
         "Video_Title": "Machine Learning Crash Course: Neural Networks Intro",
         "Upload_Date": "2024-09-03T23:02:07Z",
         "Duration": "PT2M16S",
-        "Video_Views": 41620,
+        "Video_Views": 41631,
         "Likes_Count": 419,
         "Comments_Count": 4
     },
@@ -8509,7 +8509,7 @@
         "Video_Title": "What is DevFest?",
         "Upload_Date": "2024-09-03T16:00:06Z",
         "Duration": "PT45S",
-        "Video_Views": 7041,
+        "Video_Views": 7042,
         "Likes_Count": 230,
         "Comments_Count": 4
     },
@@ -8527,7 +8527,7 @@
         "Video_Title": "How managers train to annoy software engineers",
         "Upload_Date": "2024-08-30T04:00:43Z",
         "Duration": "PT48S",
-        "Video_Views": 8664,
+        "Video_Views": 8665,
         "Likes_Count": 237,
         "Comments_Count": 4
     },
@@ -8554,7 +8554,7 @@
         "Video_Title": "Machine Learning Crash Course: Generalization",
         "Upload_Date": "2024-08-28T16:29:48Z",
         "Duration": "PT1M59S",
-        "Video_Views": 44355,
+        "Video_Views": 44368,
         "Likes_Count": 418,
         "Comments_Count": 9
     },
@@ -8563,7 +8563,7 @@
         "Video_Title": "The 5 stages of debugging",
         "Upload_Date": "2024-08-28T04:00:00Z",
         "Duration": "PT40S",
-        "Video_Views": 13924,
+        "Video_Views": 13925,
         "Likes_Count": 580,
         "Comments_Count": 15
     },
@@ -8581,7 +8581,7 @@
         "Video_Title": "Machine Learning Crash Course: Classification",
         "Upload_Date": "2024-08-26T16:14:27Z",
         "Duration": "PT2M19S",
-        "Video_Views": 86552,
+        "Video_Views": 86573,
         "Likes_Count": 600,
         "Comments_Count": 15
     },
@@ -8617,7 +8617,7 @@
         "Video_Title": "Machine Learning Crash Course: Logistic Regression",
         "Upload_Date": "2024-08-21T16:46:55Z",
         "Duration": "PT3M25S",
-        "Video_Views": 143732,
+        "Video_Views": 143782,
         "Likes_Count": 1105,
         "Comments_Count": 12
     },
@@ -8635,8 +8635,8 @@
         "Video_Title": "Machine Learning Crash Course: Gradient Descent",
         "Upload_Date": "2024-08-19T16:01:06Z",
         "Duration": "PT2M12S",
-        "Video_Views": 188301,
-        "Likes_Count": 1564,
+        "Video_Views": 188394,
+        "Likes_Count": 1565,
         "Comments_Count": 26
     },
     {
@@ -8644,7 +8644,7 @@
         "Video_Title": "Machine Learning Crash Course: Intro & What's New",
         "Upload_Date": "2024-08-19T16:00:49Z",
         "Duration": "PT1M55S",
-        "Video_Views": 253105,
+        "Video_Views": 253168,
         "Likes_Count": 1450,
         "Comments_Count": 15
     },
@@ -8653,7 +8653,7 @@
         "Video_Title": "Machine Learning Crash Course: The Optimistic ReLU Function",
         "Upload_Date": "2024-08-19T16:00:31Z",
         "Duration": "PT14S",
-        "Video_Views": 8696,
+        "Video_Views": 8699,
         "Likes_Count": 174,
         "Comments_Count": 5
     },
@@ -8680,7 +8680,7 @@
         "Video_Title": "What could possibly go wrong with a little code cleanup?",
         "Upload_Date": "2024-08-15T20:00:15Z",
         "Duration": "PT21S",
-        "Video_Views": 7701,
+        "Video_Views": 7703,
         "Likes_Count": 198,
         "Comments_Count": 17
     },
@@ -8779,7 +8779,7 @@
         "Video_Title": "Build with Gemini Nano on Android",
         "Upload_Date": "2024-08-07T16:00:41Z",
         "Duration": "PT59S",
-        "Video_Views": 2713,
+        "Video_Views": 2715,
         "Likes_Count": 82,
         "Comments_Count": 3
     },
@@ -8806,7 +8806,7 @@
         "Video_Title": "Google office ASMR",
         "Upload_Date": "2024-07-31T16:11:49Z",
         "Duration": "PT28S",
-        "Video_Views": 18704,
+        "Video_Views": 18717,
         "Likes_Count": 447,
         "Comments_Count": 27
     },
@@ -8878,8 +8878,8 @@
         "Video_Title": "Test your Google Pay integration with these 3 steps",
         "Upload_Date": "2024-07-22T19:00:13Z",
         "Duration": "PT3M48S",
-        "Video_Views": 14424,
-        "Likes_Count": 127,
+        "Video_Views": 14428,
+        "Likes_Count": 128,
         "Comments_Count": 14
     },
     {
@@ -8950,7 +8950,7 @@
         "Video_Title": "NEW Client Libraries for Google Wallet? Yes, we have them.",
         "Upload_Date": "2024-07-11T16:46:35Z",
         "Duration": "PT45M24S",
-        "Video_Views": 4069,
+        "Video_Views": 4070,
         "Likes_Count": 110,
         "Comments_Count": 7
     },
@@ -9508,7 +9508,7 @@
         "Video_Title": "Best practices for designing generative AI products that are safe, trustworthy, and helpful",
         "Upload_Date": "2024-05-16T14:06:27Z",
         "Duration": "PT46M46S",
-        "Video_Views": 4443,
+        "Video_Views": 4444,
         "Likes_Count": 90,
         "Comments_Count": 0
     },
@@ -9553,7 +9553,7 @@
         "Video_Title": "Large language models with Keras",
         "Upload_Date": "2024-05-16T14:04:44Z",
         "Duration": "PT42M14S",
-        "Video_Views": 7586,
+        "Video_Views": 7587,
         "Likes_Count": 206,
         "Comments_Count": 6
     },
@@ -9643,7 +9643,7 @@
         "Video_Title": "Developer Keynote (Google I/O '24)",
         "Upload_Date": "2024-05-14T22:01:55Z",
         "Duration": "PT1H12M32S",
-        "Video_Views": 741445,
+        "Video_Views": 741446,
         "Likes_Count": 6012,
         "Comments_Count": 256
     },
@@ -9670,7 +9670,7 @@
         "Video_Title": "Top 3 things from Google I/O 2024",
         "Upload_Date": "2024-05-14T21:43:24Z",
         "Duration": "PT56S",
-        "Video_Views": 9882726,
+        "Video_Views": 9882727,
         "Likes_Count": 556,
         "Comments_Count": 16
     },
@@ -9697,7 +9697,7 @@
         "Video_Title": "An introduction to MediaPipe’s Face Landmarker & how it can power hands free gaming",
         "Upload_Date": "2024-05-13T22:45:49Z",
         "Duration": "PT11M56S",
-        "Video_Views": 2699,
+        "Video_Views": 2700,
         "Likes_Count": 49,
         "Comments_Count": 2
     },
@@ -10076,7 +10076,7 @@
         "Upload_Date": "2024-04-04T19:00:19Z",
         "Duration": "PT18S",
         "Video_Views": 7809,
-        "Likes_Count": 202,
+        "Likes_Count": 203,
         "Comments_Count": 7
     },
     {
@@ -10085,7 +10085,7 @@
         "Upload_Date": "2024-04-03T23:00:18Z",
         "Duration": "PT23S",
         "Video_Views": 32821,
-        "Likes_Count": 780,
+        "Likes_Count": 781,
         "Comments_Count": 12
     },
     {
@@ -10282,7 +10282,7 @@
         "Video_Title": "Code with AI: Generate a full application?? | Build with Google AI",
         "Upload_Date": "2024-03-28T19:09:31Z",
         "Duration": "PT21S",
-        "Video_Views": 34941,
+        "Video_Views": 34959,
         "Likes_Count": 540,
         "Comments_Count": 16
     },
@@ -10291,7 +10291,7 @@
         "Video_Title": "Master the Gemini API: A Node.js tutorial with real examples",
         "Upload_Date": "2024-03-28T13:00:35Z",
         "Duration": "PT20M37S",
-        "Video_Views": 71184,
+        "Video_Views": 71186,
         "Likes_Count": 2243,
         "Comments_Count": 89
     },
@@ -10345,7 +10345,7 @@
         "Video_Title": "Fun building with AI! Wait. REALLY? | Build with Google AI",
         "Upload_Date": "2024-03-22T19:00:21Z",
         "Duration": "PT18S",
-        "Video_Views": 2948,
+        "Video_Views": 2949,
         "Likes_Count": 53,
         "Comments_Count": 3
     },
@@ -10759,7 +10759,7 @@
         "Video_Title": "Generate the HTML and CSS needed for this login page. Go!",
         "Upload_Date": "2024-02-13T14:00:23Z",
         "Duration": "PT44S",
-        "Video_Views": 6133,
+        "Video_Views": 6135,
         "Likes_Count": 252,
         "Comments_Count": 11
     },
@@ -11596,7 +11596,7 @@
         "Video_Title": "Introducing Virtual Machine as a core Android Primitive",
         "Upload_Date": "2023-12-13T02:00:09Z",
         "Duration": "PT33S",
-        "Video_Views": 3395,
+        "Video_Views": 3396,
         "Likes_Count": 91,
         "Comments_Count": 0
     },
@@ -11614,7 +11614,7 @@
         "Video_Title": "Object detection - ML on Raspberry Pi with MediaPipe Series",
         "Upload_Date": "2023-12-12T17:00:00Z",
         "Duration": "PT9M12S",
-        "Video_Views": 10960,
+        "Video_Views": 10965,
         "Likes_Count": 145,
         "Comments_Count": 7
     },
@@ -11632,7 +11632,7 @@
         "Video_Title": "3 solutions to build production ready web apps",
         "Upload_Date": "2023-12-08T22:00:02Z",
         "Duration": "PT12S",
-        "Video_Views": 4732,
+        "Video_Views": 4734,
         "Likes_Count": 101,
         "Comments_Count": 2
     },
@@ -12136,7 +12136,7 @@
         "Video_Title": "Image classification - ML on Web with MediaPipe: Episode 5",
         "Upload_Date": "2023-10-20T15:00:23Z",
         "Duration": "PT6M32S",
-        "Video_Views": 5427,
+        "Video_Views": 5428,
         "Likes_Count": 111,
         "Comments_Count": 11
     },
@@ -12460,7 +12460,7 @@
         "Video_Title": "Tabs: 👍   Spaces: 👎",
         "Upload_Date": "2023-09-18T13:00:26Z",
         "Duration": "PT6S",
-        "Video_Views": 7243,
+        "Video_Views": 7244,
         "Likes_Count": 113,
         "Comments_Count": 13
     },
@@ -12649,7 +12649,7 @@
         "Video_Title": "Project IDX: Full-stack application development with generative AI",
         "Upload_Date": "2023-08-23T15:00:00Z",
         "Duration": "PT13M8S",
-        "Video_Views": 335902,
+        "Video_Views": 335903,
         "Likes_Count": 10158,
         "Comments_Count": 463
     },
@@ -12982,7 +12982,7 @@
         "Video_Title": "Writing IOS and Android apps simultaneously?",
         "Upload_Date": "2023-07-20T15:00:28Z",
         "Duration": "PT34S",
-        "Video_Views": 59012,
+        "Video_Views": 59015,
         "Likes_Count": 1437,
         "Comments_Count": 30
     },
@@ -12991,7 +12991,7 @@
         "Video_Title": "What tips would you give to new dev?",
         "Upload_Date": "2023-07-18T21:00:17Z",
         "Duration": "PT38S",
-        "Video_Views": 4937,
+        "Video_Views": 4938,
         "Likes_Count": 140,
         "Comments_Count": 7
     },
@@ -13018,7 +13018,7 @@
         "Video_Title": "What architecture do you prefer? Monoliths or microservices?",
         "Upload_Date": "2023-07-15T18:00:17Z",
         "Duration": "PT34S",
-        "Video_Views": 43393,
+        "Video_Views": 43397,
         "Likes_Count": 612,
         "Comments_Count": 27
     },
@@ -13180,7 +13180,7 @@
         "Video_Title": "Creating opportunities for education, community, and tech job opportunities",
         "Upload_Date": "2023-06-20T15:00:23Z",
         "Duration": "PT49S",
-        "Video_Views": 2331,
+        "Video_Views": 2332,
         "Likes_Count": 58,
         "Comments_Count": 1
     },
@@ -13261,7 +13261,7 @@
         "Video_Title": "Introducing Google for Developers!",
         "Upload_Date": "2023-06-08T15:00:34Z",
         "Duration": "PT1M19S",
-        "Video_Views": 142732,
+        "Video_Views": 142759,
         "Likes_Count": 1108,
         "Comments_Count": 68
     },
@@ -13387,7 +13387,7 @@
         "Video_Title": "How to leverage pre-trained ML models",
         "Upload_Date": "2023-05-25T23:30:11Z",
         "Duration": "PT50S",
-        "Video_Views": 9316,
+        "Video_Views": 9317,
         "Likes_Count": 385,
         "Comments_Count": 5
     },
@@ -13585,7 +13585,7 @@
         "Video_Title": "Easy on-device Machine Learning with MediaPipe",
         "Upload_Date": "2023-05-10T20:36:47Z",
         "Duration": "PT13M19S",
-        "Video_Views": 40805,
+        "Video_Views": 40809,
         "Likes_Count": 670,
         "Comments_Count": 17
     },
@@ -13639,7 +13639,7 @@
         "Video_Title": "I/O FLIP Trailer",
         "Upload_Date": "2023-05-09T21:01:57Z",
         "Duration": "PT45S",
-        "Video_Views": 16543,
+        "Video_Views": 16545,
         "Likes_Count": 61,
         "Comments_Count": 9
     },
@@ -13657,8 +13657,8 @@
         "Video_Title": "What are Large Language Models (LLMs)?",
         "Upload_Date": "2023-05-05T23:00:18Z",
         "Duration": "PT5M30S",
-        "Video_Views": 380118,
-        "Likes_Count": 6144,
+        "Video_Views": 380132,
+        "Likes_Count": 6145,
         "Comments_Count": 112
     },
     {
@@ -13756,7 +13756,7 @@
         "Video_Title": "Introduction - ML on Android with MediaPipe Series",
         "Upload_Date": "2023-04-19T22:00:04Z",
         "Duration": "PT5M15S",
-        "Video_Views": 21906,
+        "Video_Views": 21910,
         "Likes_Count": 355,
         "Comments_Count": 7
     },
@@ -14107,7 +14107,7 @@
         "Video_Title": "Level up with Google Developer Student Clubs",
         "Upload_Date": "2023-02-09T17:00:17Z",
         "Duration": "PT1M20S",
-        "Video_Views": 22996,
+        "Video_Views": 22998,
         "Likes_Count": 245,
         "Comments_Count": 2
     },
@@ -14161,7 +14161,7 @@
         "Video_Title": "This is what we mean when we say Google Developer Experts (GDE)",
         "Upload_Date": "2023-02-06T20:37:23Z",
         "Duration": "PT1M52S",
-        "Video_Views": 4744,
+        "Video_Views": 4746,
         "Likes_Count": 106,
         "Comments_Count": 9
     },
@@ -14323,7 +14323,7 @@
         "Video_Title": "Building community with GDG Lawrence",
         "Upload_Date": "2023-01-12T21:00:02Z",
         "Duration": "PT3M46S",
-        "Video_Views": 2758,
+        "Video_Views": 2759,
         "Likes_Count": 82,
         "Comments_Count": 5
     },
@@ -14350,7 +14350,7 @@
         "Video_Title": "Exploring Tensorflow Hub: Using pre-trained web ML models",
         "Upload_Date": "2023-01-11T22:04:50Z",
         "Duration": "PT10M51S",
-        "Video_Views": 9718,
+        "Video_Views": 9719,
         "Likes_Count": 132,
         "Comments_Count": 10
     },
@@ -14431,7 +14431,7 @@
         "Video_Title": "3.2: Selecting an ML model to use",
         "Upload_Date": "2023-01-11T22:00:54Z",
         "Duration": "PT12M10S",
-        "Video_Views": 13841,
+        "Video_Views": 13842,
         "Likes_Count": 260,
         "Comments_Count": 19
     },
@@ -14440,7 +14440,7 @@
         "Video_Title": "Using pre-trained models in TensorFlow | Machine Learning for web developers",
         "Upload_Date": "2023-01-11T22:00:18Z",
         "Duration": "PT16M22S",
-        "Video_Views": 29785,
+        "Video_Views": 29787,
         "Likes_Count": 572,
         "Comments_Count": 35
     },
@@ -14458,7 +14458,7 @@
         "Video_Title": "2.5: 3 ways to use Machine Learning on the web with TensorFlow.js",
         "Upload_Date": "2023-01-10T18:01:32Z",
         "Duration": "PT3M48S",
-        "Video_Views": 18253,
+        "Video_Views": 18254,
         "Likes_Count": 253,
         "Comments_Count": 10
     },
@@ -14467,7 +14467,7 @@
         "Video_Title": "2.4: What is TensorFlow.js? (JavaScript + Machine Learning)",
         "Upload_Date": "2023-01-10T18:01:15Z",
         "Duration": "PT12M30S",
-        "Video_Views": 32447,
+        "Video_Views": 32448,
         "Likes_Count": 570,
         "Comments_Count": 17
     },
@@ -14476,7 +14476,7 @@
         "Video_Title": "Machine learning systems primer: How to train ML models",
         "Upload_Date": "2023-01-10T18:00:54Z",
         "Duration": "PT17M27S",
-        "Video_Views": 28081,
+        "Video_Views": 28082,
         "Likes_Count": 479,
         "Comments_Count": 18
     },
@@ -15025,7 +15025,7 @@
         "Video_Title": "Google Cloud Functions and Eventarc for Startups | Founder Fridays - March 2022",
         "Upload_Date": "2022-09-30T20:23:20Z",
         "Duration": "PT12M18S",
-        "Video_Views": 2138,
+        "Video_Views": 2139,
         "Likes_Count": 25,
         "Comments_Count": 6
     },
@@ -15385,7 +15385,7 @@
         "Video_Title": "Tips from the 2022 Solution Challenge finalists",
         "Upload_Date": "2022-07-28T18:01:33Z",
         "Duration": "PT2M24S",
-        "Video_Views": 5710,
+        "Video_Views": 5711,
         "Likes_Count": 122,
         "Comments_Count": 5
     },
@@ -15394,7 +15394,7 @@
         "Video_Title": "Solution Challenge Demo Day 2022 Project: SIGNify",
         "Upload_Date": "2022-07-28T18:00:42Z",
         "Duration": "PT2M32S",
-        "Video_Views": 4398,
+        "Video_Views": 4399,
         "Likes_Count": 71,
         "Comments_Count": 2
     },
@@ -15673,7 +15673,7 @@
         "Video_Title": "Why Clerk chose a .dev domain name",
         "Upload_Date": "2022-05-27T18:00:11Z",
         "Duration": "PT1M7S",
-        "Video_Views": 2121,
+        "Video_Views": 2122,
         "Likes_Count": 33,
         "Comments_Count": 3
     },
@@ -15781,7 +15781,7 @@
         "Video_Title": "The Google Developer Experts program",
         "Upload_Date": "2022-05-16T16:00:34Z",
         "Duration": "PT2M54S",
-        "Video_Views": 31074,
+        "Video_Views": 31075,
         "Likes_Count": 697,
         "Comments_Count": 43
     },
@@ -15817,7 +15817,7 @@
         "Video_Title": "Deep-dive on ARCore | Fundamentals of designing AR apps with machine learning models",
         "Upload_Date": "2022-05-12T20:04:01Z",
         "Duration": "PT18M6S",
-        "Video_Views": 32123,
+        "Video_Views": 32125,
         "Likes_Count": 438,
         "Comments_Count": 19
     },
@@ -15827,7 +15827,7 @@
         "Upload_Date": "2022-05-12T18:02:05Z",
         "Duration": "PT15M52S",
         "Video_Views": 40950,
-        "Likes_Count": 766,
+        "Likes_Count": 767,
         "Comments_Count": 34
     },
     {
@@ -15979,7 +15979,7 @@
         "Video_Title": "Google Wallet API tutorial for Google Developers | Google I/O 2022",
         "Upload_Date": "2022-05-11T20:47:42Z",
         "Duration": "PT16M17S",
-        "Video_Views": 73460,
+        "Video_Views": 73465,
         "Likes_Count": 579,
         "Comments_Count": 58
     },
@@ -15997,7 +15997,7 @@
         "Video_Title": "Developer Keynote (Google I/O '22)",
         "Upload_Date": "2022-05-11T20:24:46Z",
         "Duration": "PT57M23S",
-        "Video_Views": 200651,
+        "Video_Views": 200652,
         "Likes_Count": 0,
         "Comments_Count": 81
     },
@@ -16096,7 +16096,7 @@
         "Video_Title": "Find your community at Google I/O",
         "Upload_Date": "2022-04-27T21:00:12Z",
         "Duration": "PT55S",
-        "Video_Views": 3034,
+        "Video_Views": 3035,
         "Likes_Count": 97,
         "Comments_Count": 5
     },
@@ -16465,7 +16465,7 @@
         "Video_Title": "What is .day?",
         "Upload_Date": "2022-01-25T17:43:22Z",
         "Duration": "PT1M6S",
-        "Video_Views": 15659,
+        "Video_Views": 15660,
         "Likes_Count": 152,
         "Comments_Count": 17
     },
@@ -16519,7 +16519,7 @@
         "Video_Title": "2022 Solution Challenge: Example project",
         "Upload_Date": "2022-01-11T17:32:57Z",
         "Duration": "PT5M17S",
-        "Video_Views": 18055,
+        "Video_Views": 18056,
         "Likes_Count": 423,
         "Comments_Count": 8
     },
@@ -16582,7 +16582,7 @@
         "Video_Title": "Google Developer Home Tools: Device Access",
         "Upload_Date": "2022-01-05T00:01:12Z",
         "Duration": "PT1M55S",
-        "Video_Views": 3290,
+        "Video_Views": 3292,
         "Likes_Count": 48,
         "Comments_Count": 7
     },
@@ -16807,7 +16807,7 @@
         "Video_Title": "[DEPRECATING] Speech Synthesis Markup Language (SSML) features for Assistant",
         "Upload_Date": "2021-12-03T17:00:26Z",
         "Duration": "PT4M34S",
-        "Video_Views": 11422,
+        "Video_Views": 11425,
         "Likes_Count": 294,
         "Comments_Count": 14
     },
@@ -16969,7 +16969,7 @@
         "Video_Title": "New developer tools for Matter",
         "Upload_Date": "2021-10-21T19:17:58Z",
         "Duration": "PT14M26S",
-        "Video_Views": 2982,
+        "Video_Views": 2983,
         "Likes_Count": 26,
         "Comments_Count": 2
     },
@@ -17257,7 +17257,7 @@
         "Video_Title": "Built-in intents for App Actions",
         "Upload_Date": "2021-08-27T14:00:11Z",
         "Duration": "PT3M1S",
-        "Video_Views": 10308,
+        "Video_Views": 10309,
         "Likes_Count": 177,
         "Comments_Count": 9
     },
@@ -18670,7 +18670,7 @@
         "Video_Title": "Solution Challenge Demo Day 2020 Project: CoronAI",
         "Upload_Date": "2020-09-14T16:48:11Z",
         "Duration": "PT9M35S",
-        "Video_Views": 2443,
+        "Video_Views": 2444,
         "Likes_Count": 60,
         "Comments_Count": 1
     },
@@ -19102,8 +19102,8 @@
         "Video_Title": "Machine Learning Foundations: Ep #1 - What is ML?",
         "Upload_Date": "2020-05-06T16:00:26Z",
         "Duration": "PT15M34S",
-        "Video_Views": 234589,
-        "Likes_Count": 4973,
+        "Video_Views": 234596,
+        "Likes_Count": 4974,
         "Comments_Count": 314
     },
     {
@@ -20065,7 +20065,7 @@
         "Video_Title": "Nazirini’s story - using machine learning to tackle crop disease",
         "Upload_Date": "2019-11-13T17:02:26Z",
         "Duration": "PT5M27S",
-        "Video_Views": 57826,
+        "Video_Views": 57830,
         "Likes_Count": 1563,
         "Comments_Count": 67
     },
@@ -21028,7 +21028,7 @@
         "Video_Title": "Google I/O'19 - Soniya Jobanputra Interview on Pixel 3a and Pixel 3a XL",
         "Upload_Date": "2019-05-10T23:16:47Z",
         "Duration": "PT8M4S",
-        "Video_Views": 22536,
+        "Video_Views": 22538,
         "Likes_Count": 82,
         "Comments_Count": 34
     },
@@ -21190,7 +21190,7 @@
         "Video_Title": "Modern Web Game Development (Google I/O'19)",
         "Upload_Date": "2019-05-09T17:35:10Z",
         "Duration": "PT33M53S",
-        "Video_Views": 41941,
+        "Video_Views": 41942,
         "Likes_Count": 799,
         "Comments_Count": 12
     },
@@ -21325,7 +21325,7 @@
         "Video_Title": "On Creativity and Technology, with Legendary Animator Glen Keane (Google I/O'19)",
         "Upload_Date": "2019-05-08T19:00:13Z",
         "Duration": "PT38M8S",
-        "Video_Views": 29801,
+        "Video_Views": 29802,
         "Likes_Count": 1057,
         "Comments_Count": 26
     },
@@ -21388,7 +21388,7 @@
         "Video_Title": "Google Keynote (Google I/O'19)",
         "Upload_Date": "2019-05-07T21:57:34Z",
         "Duration": "PT1H43M17S",
-        "Video_Views": 1921763,
+        "Video_Views": 1921764,
         "Likes_Count": 30088,
         "Comments_Count": 169
     },
@@ -21703,7 +21703,7 @@
         "Video_Title": "Using Flutter Inspector and Preserving Scroll Position (The Boring Flutter Development Show, Ep. 15)",
         "Upload_Date": "2019-02-06T21:39:19Z",
         "Duration": "PT50M7S",
-        "Video_Views": 18875,
+        "Video_Views": 18876,
         "Likes_Count": 281,
         "Comments_Count": 41
     },
@@ -21739,7 +21739,7 @@
         "Video_Title": "A deaf student becomes an Android app developer for her community",
         "Upload_Date": "2019-01-29T00:21:27Z",
         "Duration": "PT2M6S",
-        "Video_Views": 36663,
+        "Video_Views": 36664,
         "Likes_Count": 1128,
         "Comments_Count": 46
     },
@@ -21838,7 +21838,7 @@
         "Video_Title": "LayoutBuilder (Flutter Widget of the Week)",
         "Upload_Date": "2019-01-08T18:04:52Z",
         "Duration": "PT47S",
-        "Video_Views": 253255,
+        "Video_Views": 253256,
         "Likes_Count": 2431,
         "Comments_Count": 43
     },
@@ -21874,7 +21874,7 @@
         "Video_Title": "CustomPaint (Flutter Widget of the Week)",
         "Upload_Date": "2018-12-18T19:16:44Z",
         "Duration": "PT1M25S",
-        "Video_Views": 215152,
+        "Video_Views": 215153,
         "Likes_Count": 2262,
         "Comments_Count": 36
     },
@@ -22063,7 +22063,7 @@
         "Video_Title": "When to Use Keys - Flutter Widgets 101 Ep. 4",
         "Upload_Date": "2018-11-26T18:21:42Z",
         "Duration": "PT9M40S",
-        "Video_Views": 534811,
+        "Video_Views": 534812,
         "Likes_Count": 8919,
         "Comments_Count": 256
     },
@@ -22090,7 +22090,7 @@
         "Video_Title": "A guide to Inherited Widgets - Flutter Widgets 101 Ep. 3",
         "Upload_Date": "2018-11-19T18:14:59Z",
         "Duration": "PT4M46S",
-        "Video_Views": 247152,
+        "Video_Views": 247154,
         "Likes_Count": 3765,
         "Comments_Count": 126
     },
@@ -22117,7 +22117,7 @@
         "Video_Title": "StreamBuilder (Flutter Widget of the Week)",
         "Upload_Date": "2018-11-13T18:06:11Z",
         "Duration": "PT1M40S",
-        "Video_Views": 333350,
+        "Video_Views": 333351,
         "Likes_Count": 3945,
         "Comments_Count": 56
     },
@@ -22126,7 +22126,7 @@
         "Video_Title": "How Stateful Widgets Are Used Best - Flutter Widgets 101 Ep. 2",
         "Upload_Date": "2018-11-12T18:25:43Z",
         "Duration": "PT7M9S",
-        "Video_Views": 348980,
+        "Video_Views": 348985,
         "Likes_Count": 4234,
         "Comments_Count": 72
     },
@@ -22162,7 +22162,7 @@
         "Video_Title": "How to Create Stateless Widgets - Flutter Widgets 101 Ep. 1",
         "Upload_Date": "2018-11-05T19:45:27Z",
         "Duration": "PT6M58S",
-        "Video_Views": 298312,
+        "Video_Views": 298315,
         "Likes_Count": 4268,
         "Comments_Count": 97
     },
@@ -22180,7 +22180,7 @@
         "Video_Title": "SliverList & SliverGrid (Flutter Widget of the Week)",
         "Upload_Date": "2018-10-30T17:00:46Z",
         "Duration": "PT1M26S",
-        "Video_Views": 406498,
+        "Video_Views": 406499,
         "Likes_Count": 2860,
         "Comments_Count": 40
     },
@@ -22216,7 +22216,7 @@
         "Video_Title": "Recent additions to SliverAppBar (Flutter Widget of the Week)",
         "Upload_Date": "2018-10-23T17:00:22Z",
         "Duration": "PT1M10S",
-        "Video_Views": 474224,
+        "Video_Views": 474227,
         "Likes_Count": 4224,
         "Comments_Count": 76
     },
@@ -22432,7 +22432,7 @@
         "Video_Title": "Wrap (Flutter Widget of the Week)",
         "Upload_Date": "2018-08-28T17:02:30Z",
         "Duration": "PT53S",
-        "Video_Views": 477483,
+        "Video_Views": 477486,
         "Likes_Count": 4525,
         "Comments_Count": 77
     },
@@ -22459,7 +22459,7 @@
         "Video_Title": "Expanded (Flutter Widget of the Week)",
         "Upload_Date": "2018-08-21T17:00:41Z",
         "Duration": "PT56S",
-        "Video_Views": 489055,
+        "Video_Views": 489057,
         "Likes_Count": 4230,
         "Comments_Count": 76
     },
@@ -23116,7 +23116,7 @@
         "Video_Title": "Inclusive and accessibility design process at Google I/O (2018)",
         "Upload_Date": "2018-05-10T21:54:39Z",
         "Duration": "PT36M31S",
-        "Video_Views": 110898,
+        "Video_Views": 110902,
         "Likes_Count": 2753,
         "Comments_Count": 88
     },
@@ -23945,7 +23945,7 @@
         "Upload_Date": "2018-01-24T01:16:18Z",
         "Duration": "PT5H51M22S",
         "Video_Views": 0,
-        "Likes_Count": 535,
+        "Likes_Count": 536,
         "Comments_Count": 10
     },
     {
@@ -23971,7 +23971,7 @@
         "Video_Title": "How to test your AdMob ads",
         "Upload_Date": "2018-01-18T18:35:06Z",
         "Duration": "PT4M35S",
-        "Video_Views": 194433,
+        "Video_Views": 194435,
         "Likes_Count": 1126,
         "Comments_Count": 141
     },
@@ -24223,7 +24223,7 @@
         "Video_Title": "Intro to Feature Engineering with TensorFlow - Machine Learning Recipes #9",
         "Upload_Date": "2017-10-30T17:59:21Z",
         "Duration": "PT7M38S",
-        "Video_Views": 187820,
+        "Video_Views": 187822,
         "Likes_Count": 3199,
         "Comments_Count": 76
     },
@@ -24304,7 +24304,7 @@
         "Video_Title": "A.I. Experiments: Teachable Machine",
         "Upload_Date": "2017-10-03T15:04:25Z",
         "Duration": "PT3M19S",
-        "Video_Views": 273396,
+        "Video_Views": 273414,
         "Likes_Count": 2734,
         "Comments_Count": 52
     },
@@ -24385,7 +24385,7 @@
         "Video_Title": "Let’s Write a Decision Tree Classifier from Scratch - Machine Learning Recipes #8",
         "Upload_Date": "2017-09-13T17:21:52Z",
         "Duration": "PT9M53S",
-        "Video_Views": 573444,
+        "Video_Views": 573450,
         "Likes_Count": 10588,
         "Comments_Count": 237
     },
@@ -24763,7 +24763,7 @@
         "Video_Title": "Transport Tracker Solution for Google Maps",
         "Upload_Date": "2017-08-17T17:00:42Z",
         "Duration": "PT1M12S",
-        "Video_Views": 305954,
+        "Video_Views": 305955,
         "Likes_Count": 2317,
         "Comments_Count": 37
     },
@@ -24799,7 +24799,7 @@
         "Video_Title": "SMS Verification Codes made Easy on Android!",
         "Upload_Date": "2017-08-02T21:22:05Z",
         "Duration": "PT4M2S",
-        "Video_Views": 317216,
+        "Video_Views": 317219,
         "Likes_Count": 1925,
         "Comments_Count": 84
     },
@@ -25033,7 +25033,7 @@
         "Video_Title": "Applying Built-in Hacks of Conversation to Your Voice UI (Google I/O '17)",
         "Upload_Date": "2017-05-19T23:57:35Z",
         "Duration": "PT40M11S",
-        "Video_Views": 41697,
+        "Video_Views": 41700,
         "Likes_Count": 467,
         "Comments_Count": 18
     },
@@ -25663,7 +25663,7 @@
         "Video_Title": "Blockly: Using Block Based Coding in your App",
         "Upload_Date": "2017-05-17T18:30:26Z",
         "Duration": "PT2M54S",
-        "Video_Views": 182592,
+        "Video_Views": 182593,
         "Likes_Count": 1547,
         "Comments_Count": 49
     },
@@ -26599,8 +26599,8 @@
         "Video_Title": "A.I. Experiments: Visualizing High-Dimensional Space",
         "Upload_Date": "2016-11-15T15:02:21Z",
         "Duration": "PT3M17S",
-        "Video_Views": 1315594,
-        "Likes_Count": 47819,
+        "Video_Views": 1315600,
+        "Likes_Count": 47820,
         "Comments_Count": 902
     },
     {
@@ -26608,7 +26608,7 @@
         "Video_Title": "A.I. Experiments: Quick, Draw!",
         "Upload_Date": "2016-11-15T15:02:20Z",
         "Duration": "PT1M41S",
-        "Video_Views": 1392157,
+        "Video_Views": 1392184,
         "Likes_Count": 2305,
         "Comments_Count": 181
     },
@@ -27382,7 +27382,7 @@
         "Video_Title": "AdMob with Firebase - Mobile Ads Garage #6",
         "Upload_Date": "2016-06-30T21:00:07Z",
         "Duration": "PT10M51S",
-        "Video_Views": 128658,
+        "Video_Views": 128659,
         "Likes_Count": 466,
         "Comments_Count": 51
     },
@@ -27994,7 +27994,7 @@
         "Video_Title": "Introducing Project Tango Area Learning - Google I/O 2016",
         "Upload_Date": "2016-05-19T02:01:19Z",
         "Duration": "PT34M17S",
-        "Video_Views": 36770,
+        "Video_Views": 36771,
         "Likes_Count": 222,
         "Comments_Count": 14
     },
@@ -28129,7 +28129,7 @@
         "Video_Title": "AdMob Banner Ads - Mobile Ads Garage #2",
         "Upload_Date": "2016-04-28T16:59:58Z",
         "Duration": "PT7M17S",
-        "Video_Views": 330593,
+        "Video_Views": 330597,
         "Likes_Count": 1157,
         "Comments_Count": 119
     },
@@ -28246,7 +28246,7 @@
         "Video_Title": "Importing the Mobile Ads SDK - Mobile Ads Garage #1",
         "Upload_Date": "2016-04-14T19:01:13Z",
         "Duration": "PT5M38S",
-        "Video_Views": 891759,
+        "Video_Views": 891767,
         "Likes_Count": 3877,
         "Comments_Count": 182
     },
@@ -28435,7 +28435,7 @@
         "Video_Title": "Hello World - Machine Learning Recipes #1",
         "Upload_Date": "2016-03-30T16:59:12Z",
         "Duration": "PT6M53S",
-        "Video_Views": 2688888,
+        "Video_Views": 2688890,
         "Likes_Count": 57194,
         "Comments_Count": 1311
     },
@@ -32404,7 +32404,7 @@
         "Video_Title": "Android TV: Beach Buggy Racing Multiplayer with Nearby Connections (Play Services)",
         "Upload_Date": "2015-03-02T18:06:06Z",
         "Duration": "PT1M46S",
-        "Video_Views": 811884,
+        "Video_Views": 811890,
         "Likes_Count": 5700,
         "Comments_Count": 308
     },
@@ -33250,7 +33250,7 @@
         "Video_Title": "Demo day pitch: make your 5 minutes memorable",
         "Upload_Date": "2014-11-17T21:35:36Z",
         "Duration": "PT8M45S",
-        "Video_Views": 195131,
+        "Video_Views": 195132,
         "Likes_Count": 3733,
         "Comments_Count": 84
     },
@@ -33259,7 +33259,7 @@
         "Video_Title": "Build something people want: Solving real problems",
         "Upload_Date": "2014-11-17T21:35:17Z",
         "Duration": "PT6M26S",
-        "Video_Views": 64004,
+        "Video_Views": 64008,
         "Likes_Count": 1841,
         "Comments_Count": 31
     },
@@ -34987,7 +34987,7 @@
         "Video_Title": "Google I/O 2014 - HTTPS Everywhere",
         "Upload_Date": "2014-06-26T21:07:18Z",
         "Duration": "PT45M45S",
-        "Video_Views": 257190,
+        "Video_Views": 257192,
         "Likes_Count": 1558,
         "Comments_Count": 150
     },
@@ -35752,7 +35752,7 @@
         "Video_Title": "Material design",
         "Upload_Date": "2014-06-25T15:55:27Z",
         "Duration": "PT49S",
-        "Video_Views": 4517082,
+        "Video_Views": 4517093,
         "Likes_Count": 17319,
         "Comments_Count": 1072
     },
@@ -36085,7 +36085,7 @@
         "Video_Title": "Perf Primer : CPU, GPU and your Android game",
         "Upload_Date": "2014-06-12T20:51:11Z",
         "Duration": "PT3M50S",
-        "Video_Views": 33139,
+        "Video_Views": 33140,
         "Likes_Count": 365,
         "Comments_Count": 14
     },
@@ -37984,7 +37984,7 @@
         "Video_Title": "Computer Science Education Week: Limor Fried of Adafruit",
         "Upload_Date": "2013-12-13T18:32:31Z",
         "Duration": "PT13M52S",
-        "Video_Views": 19620,
+        "Video_Views": 19621,
         "Likes_Count": 108,
         "Comments_Count": 9
     },
@@ -40504,7 +40504,7 @@
         "Video_Title": "Basic Structure of a Chrome Packaged App",
         "Upload_Date": "2013-08-07T20:20:37Z",
         "Duration": "PT16M27S",
-        "Video_Views": 4222,
+        "Video_Views": 4223,
         "Likes_Count": 59,
         "Comments_Count": 2
     },
@@ -41890,7 +41890,7 @@
         "Video_Title": "GDC 2013 - Introduction to the Google Cloud Platform",
         "Upload_Date": "2013-05-21T15:08:06Z",
         "Duration": "PT48M18S",
-        "Video_Views": 22277,
+        "Video_Views": 22278,
         "Likes_Count": 85,
         "Comments_Count": 11
     },
@@ -42007,7 +42007,7 @@
         "Video_Title": "Real-time communication with WebRTC: Google I/O 2013",
         "Upload_Date": "2013-05-20T05:31:53Z",
         "Duration": "PT44M17S",
-        "Video_Views": 626643,
+        "Video_Views": 626645,
         "Likes_Count": 3677,
         "Comments_Count": 113
     },
@@ -42889,7 +42889,7 @@
         "Video_Title": "Google I/O 2013 - Semantic Video Annotations in the YouTube Topics API: Theory and Applications",
         "Upload_Date": "2013-05-17T00:41:36Z",
         "Duration": "PT36M37S",
-        "Video_Views": 16273,
+        "Video_Views": 16274,
         "Likes_Count": 76,
         "Comments_Count": 5
     },
@@ -43006,7 +43006,7 @@
         "Video_Title": "Google I/O 2013 - What's New in Google Play Services",
         "Upload_Date": "2013-05-16T23:24:29Z",
         "Duration": "PT40M54S",
-        "Video_Views": 20060,
+        "Video_Views": 20061,
         "Likes_Count": 104,
         "Comments_Count": 0
     },
@@ -43078,7 +43078,7 @@
         "Video_Title": "Google I/O 2013 - Broadcast Yourself!: Using the YouTube Live APIs to Stream to the World",
         "Upload_Date": "2013-05-16T22:15:09Z",
         "Duration": "PT30M57S",
-        "Video_Views": 198310,
+        "Video_Views": 198315,
         "Likes_Count": 372,
         "Comments_Count": 30
     },
@@ -43186,7 +43186,7 @@
         "Video_Title": "Web Languages and VMs: Fast Code is Always in Fashion. (V8, Dart) - Google I/O 2013",
         "Upload_Date": "2013-05-16T21:49:03Z",
         "Duration": "PT1H1M6S",
-        "Video_Views": 31528,
+        "Video_Views": 31529,
         "Likes_Count": 210,
         "Comments_Count": 2
     },
@@ -43321,7 +43321,7 @@
         "Video_Title": "Google I/O 2013 - Jank Free: Chrome Rendering Performance",
         "Upload_Date": "2013-05-16T16:25:04Z",
         "Duration": "PT40M54S",
-        "Video_Views": 25912,
+        "Video_Views": 25914,
         "Likes_Count": 217,
         "Comments_Count": 1
     },
@@ -43969,7 +43969,7 @@
         "Video_Title": "YouTube Developers Live: Embedded Web Player Customization",
         "Upload_Date": "2013-04-10T17:25:04Z",
         "Duration": "PT22M24S",
-        "Video_Views": 1646801,
+        "Video_Views": 1646847,
         "Likes_Count": 1014,
         "Comments_Count": 100
     },
@@ -46048,7 +46048,7 @@
         "Video_Title": "Introduction to Chrome Apps",
         "Upload_Date": "2012-11-19T18:21:41Z",
         "Duration": "PT1H1M34S",
-        "Video_Views": 93443,
+        "Video_Views": 93446,
         "Likes_Count": 423,
         "Comments_Count": 32
     },
@@ -48640,7 +48640,7 @@
         "Video_Title": "Google I/O 2012 - Go Concurrency Patterns",
         "Upload_Date": "2012-07-02T15:14:53Z",
         "Duration": "PT51M27S",
-        "Video_Views": 886027,
+        "Video_Views": 886044,
         "Likes_Count": 8350,
         "Comments_Count": 248
     },
@@ -49171,7 +49171,7 @@
         "Video_Title": "What is Google Apps Script?",
         "Upload_Date": "2012-06-28T17:19:20Z",
         "Duration": "PT1M13S",
-        "Video_Views": 438515,
+        "Video_Views": 438534,
         "Likes_Count": 875,
         "Comments_Count": 31
     },
@@ -49990,7 +49990,7 @@
         "Video_Title": "GDC 2012: Porting your game to NaCl",
         "Upload_Date": "2012-03-06T01:00:50Z",
         "Duration": "PT36M40S",
-        "Video_Views": 12819,
+        "Video_Views": 12820,
         "Likes_Count": 108,
         "Comments_Count": 11
     },
@@ -50593,7 +50593,7 @@
         "Video_Title": "Google I/O 2011: YouTube's iframe Player: The Future of Embedding",
         "Upload_Date": "2011-05-13T16:54:56Z",
         "Duration": "PT54M37S",
-        "Video_Views": 530850,
+        "Video_Views": 530858,
         "Likes_Count": 869,
         "Comments_Count": 83
     },
@@ -50800,7 +50800,7 @@
         "Video_Title": "Google I/O 2011: Cloud Robotics",
         "Upload_Date": "2011-05-12T14:09:12Z",
         "Duration": "PT39M59S",
-        "Video_Views": 80694,
+        "Video_Views": 80695,
         "Likes_Count": 369,
         "Comments_Count": 55
     },
@@ -50935,7 +50935,7 @@
         "Video_Title": "Google I/O 2011: Secrets and surprises of the Google Geo APIs",
         "Upload_Date": "2011-05-12T04:43:24Z",
         "Duration": "PT59M17S",
-        "Video_Views": 29995,
+        "Video_Views": 29996,
         "Likes_Count": 62,
         "Comments_Count": 2
     },
@@ -52321,7 +52321,7 @@
         "Video_Title": "Google I/O 2010 - Casting a wide net for all Android devices",
         "Upload_Date": "2010-05-27T22:48:51Z",
         "Duration": "PT1H2M15S",
-        "Video_Views": 20530,
+        "Video_Views": 20531,
         "Likes_Count": 43,
         "Comments_Count": 4
     },
@@ -52744,7 +52744,7 @@
         "Video_Title": "Google I/O 2010 Keynote Day 1, pt. 3",
         "Upload_Date": "2010-05-19T19:45:08Z",
         "Duration": "PT9M59S",
-        "Video_Views": 52023,
+        "Video_Views": 52024,
         "Likes_Count": 93,
         "Comments_Count": 16
     },
@@ -52879,7 +52879,7 @@
         "Video_Title": "Google Python Class Day 2 Part 4",
         "Upload_Date": "2010-03-01T21:00:31Z",
         "Duration": "PT11M16S",
-        "Video_Views": 229813,
+        "Video_Views": 229814,
         "Likes_Count": 1310,
         "Comments_Count": 155
     },
@@ -52888,7 +52888,7 @@
         "Video_Title": "What are regular expressions?",
         "Upload_Date": "2010-03-01T20:48:55Z",
         "Duration": "PT42M",
-        "Video_Views": 550931,
+        "Video_Views": 550935,
         "Likes_Count": 2259,
         "Comments_Count": 197
     },
@@ -52897,7 +52897,7 @@
         "Video_Title": "Google Python Class Day 2 Part 2",
         "Upload_Date": "2010-03-01T20:47:35Z",
         "Duration": "PT20M20S",
-        "Video_Views": 334295,
+        "Video_Views": 334298,
         "Likes_Count": 915,
         "Comments_Count": 58
     },
@@ -52906,7 +52906,7 @@
         "Video_Title": "Google Python Class Day 1 Part 2",
         "Upload_Date": "2010-03-01T20:41:09Z",
         "Duration": "PT35M12S",
-        "Video_Views": 781894,
+        "Video_Views": 781902,
         "Likes_Count": 3500,
         "Comments_Count": 226
     },
@@ -52915,7 +52915,7 @@
         "Video_Title": "Google Python Class Day 1 Part 3",
         "Upload_Date": "2010-03-01T20:32:50Z",
         "Duration": "PT28M59S",
-        "Video_Views": 552832,
+        "Video_Views": 552836,
         "Likes_Count": 2365,
         "Comments_Count": 150
     },
@@ -52924,7 +52924,7 @@
         "Video_Title": "Google Python Class Day 1 Part 1",
         "Upload_Date": "2010-03-01T20:31:10Z",
         "Duration": "PT51M37S",
-        "Video_Views": 3679911,
+        "Video_Views": 3679969,
         "Likes_Count": 22693,
         "Comments_Count": 1202
     },
@@ -53383,7 +53383,7 @@
         "Video_Title": "Intro to Building Chrome with GYP",
         "Upload_Date": "2009-06-04T18:29:05Z",
         "Duration": "PT37M40S",
-        "Video_Views": 12051,
+        "Video_Views": 12052,
         "Likes_Count": 29,
         "Comments_Count": 8
     },
@@ -53455,7 +53455,7 @@
         "Video_Title": "Google I/O 2009 - Big Modular Java with Guice",
         "Upload_Date": "2009-06-03T19:18:44Z",
         "Duration": "PT58M12S",
-        "Video_Views": 297737,
+        "Video_Views": 297741,
         "Likes_Count": 1163,
         "Comments_Count": 55
     },
@@ -53635,7 +53635,7 @@
         "Video_Title": "Google I/O 2009 - Transactions Across Datacenters..",
         "Upload_Date": "2009-06-02T19:06:26Z",
         "Duration": "PT59M38S",
-        "Video_Views": 90024,
+        "Video_Views": 90028,
         "Likes_Count": 1037,
         "Comments_Count": 34
     },
@@ -54589,7 +54589,7 @@
         "Video_Title": "Google I/O 2008 - Dalvik Virtual Machine Internals",
         "Upload_Date": "2008-06-03T20:24:51Z",
         "Duration": "PT1H1M34S",
-        "Video_Views": 187692,
+        "Video_Views": 187695,
         "Likes_Count": 962,
         "Comments_Count": 41
     },
