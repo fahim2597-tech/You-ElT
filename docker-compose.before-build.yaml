@@ -5,9 +5,6 @@ x-airflow-common:
 
   image: you-elt-airflow:latest
 
-  build:
-    context: .
-
   environment:
     &airflow-common-env
 
