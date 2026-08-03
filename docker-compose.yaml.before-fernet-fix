@@ -16,7 +16,7 @@ x-airflow-common:
 
     AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres:5432/airflow
 
-    AIRFLOW__CORE__FERNET_KEY: "Sr1RTKuwn2Gnwrgqh1A4A2FeSh5vFUh98yZ9cZYSInk="
+    AIRFLOW__CORE__FERNET_KEY: "AbCdEfGhIjKlMnOpQrStUvWxYz1234567890abcd="
 
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
 
@@ -36,7 +36,6 @@ x-airflow-common:
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - ./include:/opt/airflow/include
-    - ./data:/opt/airflow/data
 
 
   user: "${AIRFLOW_UID:-50000}:0"

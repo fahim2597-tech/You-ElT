@@ -2,7 +2,6 @@ from airflow import DAG
 from airflow.decorators import task
 from airflow.models import Variable
 from datetime import timedelta
-from datetime import datetime
 import pendulum
 import requests
 import json

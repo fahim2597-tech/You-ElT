@@ -125,7 +125,7 @@ def extract_video_data(video_ids):
 def save_to_json(data):
 
     with open(
-        "/opt/airflow/data/YT_data.json",
+        "/opt/airflow/data/YT_data_$(date +%Y-%m-%d).json",
         "w",
         encoding="utf-8"
     ) as file:

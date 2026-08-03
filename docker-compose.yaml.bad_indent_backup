@@ -36,7 +36,7 @@ x-airflow-common:
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - ./include:/opt/airflow/include
-    - ./data:/opt/airflow/data
+      - ./data:/opt/airflow/data
 
 
   user: "${AIRFLOW_UID:-50000}:0"
