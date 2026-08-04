@@ -1,7 +1,8 @@
 data_source pg_datasource:
   type: postgres
-  host: postgres
-  port: 5432
-  username: airflow
-  password: airflow
-  database: elt_db
+  connection:
+    host: postgres
+    port: 5432
+    username: airflow
+    password: airflow
+    database: elt_db

@@ -4,12 +4,16 @@ checks for core.yt_api:
 
   - duplicate_count(video_id) = 0
 
-  - failed rows:
-      name: likes_count_greater_than_views
-      fail condition: likes_count > video_views
-      warn: when > 0
+  - min(video_views) >= 0
+
+  - min(likes_count) >= 0
+
+  - min(comments_count) >= 0
 
   - failed rows:
-      name: comments_count_greater_than_views
+      name: likes_bigger_than_views
+      fail condition: likes_count > video_views
+
+  - failed rows:
+      name: comments_bigger_than_views
       fail condition: comments_count > video_views
-      warn: when > 0
