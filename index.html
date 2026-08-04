@@ -218,6 +218,49 @@ padding:18px;
 }
 
 
+
+
+/* Premium Slider Animation */
+
+.slide-box{
+overflow:hidden;
+height:120px;
+position:relative;
+}
+
+.slide-text{
+position:absolute;
+width:100%;
+animation:moveSlide 9s infinite;
+}
+
+@keyframes moveSlide{
+
+0%{
+opacity:0;
+transform:translateY(40px);
+}
+
+20%{
+opacity:1;
+transform:translateY(0);
+}
+
+40%{
+opacity:1;
+}
+
+60%{
+opacity:0;
+transform:translateY(-40px);
+}
+
+100%{
+opacity:0;
+}
+
+}
+
 </style>
 
 </head>
@@ -245,24 +288,25 @@ Dashboard
 
 <section class="hero">
 
-<h1>
+<div class="slide-box">
 
+<div class="slide-text">
+
+<h1>
 Build Powerful
 <br>
 Data Engineering Solutions
-
 </h1>
 
-
 <p>
-
 YouTube ELT Analytics Platform
-
 <br>
-
 Airflow • Docker • PostgreSQL • Streamlit
-
 </p>
+
+</div>
+
+</div>
 
 
 <a class="btn"
