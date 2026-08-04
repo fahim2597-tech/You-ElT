@@ -5,3 +5,22 @@ services:
     dockerfilePath: ./streamlit_app/Dockerfile
     dockerContext: ./streamlit_app
     plan: free
+
+    envVars:
+      - key: DB_HOST
+        value: ep-proud-butterfly-axwv7h6l-pooler.c-4.us-east-2.aws.neon.tech
+
+      - key: DB_PORT
+        value: "5432"
+
+      - key: DB_NAME
+        value: neondb
+
+      - key: DB_USER
+        value: neondb_owner
+
+      - key: DB_PASSWORD
+        value: npg_3FAaboQqMze5
+
+      - key: DB_SSLMODE
+        value: require
