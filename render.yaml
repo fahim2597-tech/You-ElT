@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: you-elt-dashboard
+    env: docker
+    dockerfilePath: ./streamlit_app/Dockerfile
+    dockerContext: ./streamlit_app
+    plan: free
+    envVars:
+      - key: DB_HOST
+        value: your-db-host
+      - key: DB_PORT
+        value: 5432
+      - key: DB_NAME
+        value: elt_db
+      - key: DB_USER
+        value: airflow
+      - key: DB_PASSWORD
+        value: airflow
