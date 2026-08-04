@@ -16,6 +16,7 @@ DB_PORT = os.getenv("DB_PORT", "5432")
 DB_NAME = os.getenv("DB_NAME", "elt_db")
 DB_USER = os.getenv("DB_USER", "airflow")
 DB_PASSWORD = os.getenv("DB_PASSWORD", "airflow")
+DB_SSLMODE = os.getenv("DB_SSLMODE", "require")
 
 
 def get_data():
@@ -25,7 +26,8 @@ def get_data():
         port=DB_PORT,
         database=DB_NAME,
         user=DB_USER,
-        password=DB_PASSWORD
+        password=DB_PASSWORD,
+        sslmode=DB_SSLMODE
     )
 
     query = """
