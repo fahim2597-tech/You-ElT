@@ -1,83 +1,165 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Fahim | YouTube ELT Analytics</title>
+<title>Fahim | Data Engineer</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
+
 body{
-font-family:Arial;
-background:#0f172a;
+margin:0;
+font-family:Inter,Arial;
+background:#020617;
 color:white;
-max-width:1000px;
+}
+
+.container{
+max-width:1100px;
 margin:auto;
 padding:40px;
 }
 
+.hero{
+text-align:center;
+padding:60px 20px;
+}
+
+h1{
+font-size:48px;
+}
+
+.gradient{
+color:#38bdf8;
+}
+
 .card{
-background:#1e293b;
+background:#0f172a;
+border:1px solid #1e293b;
 padding:25px;
-margin:20px 0;
-border-radius:15px;
+margin:25px 0;
+border-radius:20px;
+box-shadow:0 10px 30px #0005;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+margin:10px;
+border-radius:30px;
+background:#38bdf8;
+color:#020617;
+text-decoration:none;
+font-weight:bold;
+}
+
+.btn2{
+background:#334155;
+color:white;
 }
 
 .badge{
 display:inline-block;
-background:#334155;
-padding:8px 12px;
-border-radius:10px;
+padding:8px 15px;
 margin:5px;
+background:#1e293b;
+border-radius:20px;
 }
 
-a{
+.arch{
+font-size:18px;
+line-height:2;
+text-align:center;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.metric{
+text-align:center;
+font-size:30px;
 color:#38bdf8;
 }
 
-img{
-max-width:100%;
-border-radius:15px;
-}
 </style>
 
 </head>
 
+
 <body>
 
-<h1>🚀 YouTube ELT Analytics Platform</h1>
+<div class="container">
+
+
+<section class="hero">
+
+<h1>
+🚀 <span class="gradient">YouTube ELT</span>
+Analytics Platform
+</h1>
 
 <p>
-Professional Data Engineering Pipeline
+End-to-End Data Engineering Project
 </p>
+
+
+<a class="btn"
+href="https://fahim-yt-elt.streamlit.app">
+Live Dashboard
+</a>
+
+
+<a class="btn btn2"
+href="https://github.com/fahim2597-tech/You-ElT">
+GitHub
+</a>
+
+
+</section>
+
 
 
 <div class="card">
 
-<h2>🏗 Architecture</h2>
+<h2>🏗 Data Pipeline Architecture</h2>
 
-<pre>
-YouTube API
-     |
-     ↓
-Apache Airflow
-     |
-     ↓
-Docker Pipeline
-     |
-     ↓
-Neon PostgreSQL
-     |
-     ↓
-Streamlit Dashboard
-</pre>
+<div class="arch">
+
+🎬 YouTube API
+
+<br>⬇
+
+⚙️ Apache Airflow
+
+<br>⬇
+
+🐳 Docker ELT Pipeline
+
+<br>⬇
+
+🗄 Neon PostgreSQL
+
+<br>⬇
+
+📊 Streamlit Dashboard
+
+</div>
 
 </div>
 
 
+
 <div class="card">
 
-<h2>🛠 Tech Stack</h2>
+<h2>🛠 Technology Stack</h2>
+
+<div>
 
 <span class="badge">Python</span>
-<span class="badge">Apache Airflow</span>
+<span class="badge">Airflow 3</span>
 <span class="badge">Docker</span>
 <span class="badge">PostgreSQL</span>
 <span class="badge">Neon Cloud</span>
@@ -86,27 +168,50 @@ Streamlit Dashboard
 
 </div>
 
-
-<div class="card">
-
-<h2>📊 Live Dashboard</h2>
-
-<a href="https://fahim-yt-elt.streamlit.app">
-🚀 Open Streamlit Dashboard
-</a>
-
 </div>
+
 
 
 <div class="card">
 
-<h2>📂 Source Code</h2>
+<h2>📊 Project Result</h2>
 
-<a href="https://github.com/fahim2597-tech/You-ElT">
-GitHub Repository
-</a>
+<div class="grid">
+
+<div>
+<div class="metric">1423+</div>
+Videos Processed
+</div>
+
+
+<div>
+<div class="metric">202M+</div>
+Views Analyzed
+</div>
+
+
+<div>
+<div class="metric">100%</div>
+Pipeline Automated
+</div>
 
 </div>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>👨‍💻 About Me</h2>
+
+<p>
+I build scalable data pipelines, automate workflows,
+and create analytics solutions using modern data engineering tools.
+</p>
+
+</div>
+
 
 
 <div class="card">
@@ -114,27 +219,13 @@ GitHub Repository
 <h2>📄 Resume</h2>
 
 <p>
-Download my Data Engineer Resume
-</p>
-
-<a href="#">
-Download Resume
-</a>
-
-</div>
-
-
-<div class="card">
-
-<h2>👨‍💻 About</h2>
-
-<p>
-Data Engineer building ETL/ELT pipelines,
-cloud databases and analytics dashboards.
+Data Engineer Resume coming soon
 </p>
 
 </div>
 
+
+</div>
 
 </body>
 </html>
