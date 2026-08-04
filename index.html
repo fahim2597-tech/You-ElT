@@ -14,9 +14,9 @@ box-sizing:border-box;
 
 body{
 margin:0;
-font-family:Inter,Arial,sans-serif;
-background:#f8fafc;
-color:#0f172a;
+font-family:Arial,sans-serif;
+background:#faf5ff;
+color:#111827;
 }
 
 
@@ -26,38 +26,24 @@ justify-content:space-between;
 align-items:center;
 padding:20px 8%;
 background:white;
-box-shadow:0 4px 20px #0001;
-position:sticky;
-top:0;
+box-shadow:0 3px 15px #0001;
 }
 
 
 .logo{
 font-size:26px;
 font-weight:800;
-color:#2563eb;
+color:#7c3aed;
 }
 
 
 .btn{
-display:inline-block;
+background:#7c3aed;
+color:white;
 padding:14px 28px;
 border-radius:30px;
 text-decoration:none;
 font-weight:bold;
-margin:8px;
-}
-
-
-.primary{
-background:#2563eb;
-color:white;
-}
-
-
-.secondary{
-background:#e2e8f0;
-color:#0f172a;
 }
 
 
@@ -65,56 +51,15 @@ color:#0f172a;
 .hero{
 
 padding:90px 8%;
-background:linear-gradient(135deg,#eff6ff,#ffffff);
-
-display:flex;
-align-items:center;
-justify-content:center;
 text-align:center;
+background:linear-gradient(135deg,#7c3aed,#c026d3);
+color:white;
 
 }
 
 
 .hero h1{
-
 font-size:55px;
-
-}
-
-
-.blue{
-color:#2563eb;
-}
-
-
-
-.slider{
-
-animation:slide 6s infinite;
-
-}
-
-
-@keyframes slide{
-
-0%{
-opacity:0;
-transform:translateY(30px);
-}
-
-20%{
-opacity:1;
-transform:translateY(0);
-}
-
-80%{
-opacity:1;
-}
-
-100%{
-opacity:0;
-}
-
 }
 
 
@@ -123,7 +68,7 @@ opacity:0;
 
 max-width:1100px;
 margin:auto;
-padding:50px 8%;
+padding:40px 8%;
 
 }
 
@@ -132,10 +77,10 @@ padding:50px 8%;
 .card{
 
 background:white;
+padding:30px;
 border-radius:25px;
-padding:35px;
-margin:30px 0;
-box-shadow:0 15px 35px #0002;
+margin:25px 0;
+box-shadow:0 10px 30px #0002;
 
 }
 
@@ -145,50 +90,41 @@ box-shadow:0 15px 35px #0002;
 
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:25px;
+gap:20px;
 
 }
 
 
 
-.metric{
+.stat{
 
-background:#eff6ff;
-padding:30px;
+background:#f3e8ff;
+padding:25px;
 border-radius:20px;
 text-align:center;
 
 }
 
 
+
 .number{
 
-font-size:42px;
-font-weight:800;
-color:#2563eb;
+font-size:40px;
+font-weight:bold;
+color:#7c3aed;
 
 }
 
 
 
-.stack span{
+.badge{
 
 display:inline-block;
-background:#dbeafe;
-color:#1d4ed8;
-padding:12px 20px;
-border-radius:30px;
-margin:6px;
-
-}
-
-
-
-.timeline{
-
-text-align:center;
-font-size:20px;
-line-height:2.5;
+background:#ede9fe;
+color:#6d28d9;
+padding:10px 18px;
+border-radius:25px;
+margin:5px;
 
 }
 
@@ -196,16 +132,14 @@ line-height:2.5;
 
 footer{
 
-background:#0f172a;
+background:#581c87;
 color:white;
-padding:40px;
+padding:30px;
 text-align:center;
 
 }
 
-
 </style>
-
 
 </head>
 
@@ -220,9 +154,9 @@ text-align:center;
 </div>
 
 
-<a class="btn primary"
+<a class="btn"
 href="https://fahim-yt-elt.streamlit.app">
-Live Dashboard
+Dashboard
 </a>
 
 
@@ -232,16 +166,11 @@ Live Dashboard
 
 <section class="hero">
 
-
-<div class="slider">
-
-
 <h1>
 
-Build
-<span class="blue">
-Modern Data Pipelines
-</span>
+Build Powerful
+<br>
+Data Engineering Solutions
 
 </h1>
 
@@ -252,63 +181,46 @@ YouTube ELT Analytics Platform
 
 <br>
 
-Airflow + Docker + PostgreSQL + Streamlit
+Airflow • Docker • PostgreSQL • Streamlit
 
 </p>
 
 
-<a class="btn primary"
-href="https://fahim-yt-elt.streamlit.app">
-
-Explore Dashboard
-
-</a>
-
-
-<a class="btn secondary"
+<a class="btn"
 href="https://github.com/fahim2597-tech/You-ElT">
 
-Source Code
+View Project
 
 </a>
-
-
-</div>
 
 
 </section>
 
 
 
-
 <div class="container">
-
 
 
 <div class="card">
 
-
-<h2>
-📊 Project Performance
-</h2>
+<h2>📊 Project Results</h2>
 
 
 <div class="grid">
 
 
-<div class="metric">
+<div class="stat">
 
 <div class="number">
 1423+
 </div>
 
-Videos Processed
+Videos
 
 </div>
 
 
-
-<div class="metric">
+<div class="stat">
 
 <div class="number">
 202M+
@@ -319,8 +231,7 @@ Views
 </div>
 
 
-
-<div class="metric">
+<div class="stat">
 
 <div class="number">
 581K+
@@ -331,7 +242,6 @@ Likes
 </div>
 
 
-
 </div>
 
 
@@ -342,114 +252,56 @@ Likes
 
 <div class="card">
 
+<h2>🏗 Architecture</h2>
 
-<h2>
-🏗 Data Engineering Architecture
-</h2>
+<center>
 
-
-<div class="timeline">
-
+<h3>
 
 🎬 YouTube API
-
 <br>⬇<br>
-
-⚙️ Airflow Automation
-
+⚙️ Airflow
 <br>⬇<br>
-
-🐳 Docker ELT Pipeline
-
+🐳 Docker
 <br>⬇<br>
-
-🗄 PostgreSQL Data Warehouse
-
+🗄 PostgreSQL
 <br>⬇<br>
+📈 Streamlit Dashboard
 
-📈 Streamlit Analytics Dashboard
+</h3>
+
+</center>
 
 
 </div>
-
-
-</div>
-
-
 
 
 
 <div class="card">
 
+<h2>🛠 Technology</h2>
 
-<h2>
-🛠 Technology Stack
-</h2>
-
-
-<div class="stack">
-
-
-<span>Python</span>
-<span>SQL</span>
-<span>Apache Airflow</span>
-<span>Docker</span>
-<span>PostgreSQL</span>
-<span>Neon Cloud</span>
-<span>Streamlit</span>
-<span>Plotly</span>
+<span class="badge">Python</span>
+<span class="badge">SQL</span>
+<span class="badge">Airflow</span>
+<span class="badge">Docker</span>
+<span class="badge">PostgreSQL</span>
+<span class="badge">Neon</span>
+<span class="badge">Streamlit</span>
 
 
 </div>
-
-
-</div>
-
-
 
 
 
 <div class="card">
 
-
-<h2>
-⭐ Why This Project?
-</h2>
-
-
-<ul>
-
-<li>End-to-End ELT Pipeline</li>
-
-<li>Automated Workflow Orchestration</li>
-
-<li>Cloud Database Integration</li>
-
-<li>Analytics Dashboard Development</li>
-
-<li>Data Quality Validation</li>
-
-
-</ul>
-
-
-</div>
-
-
-
-
-<div class="card">
-
-
-<h2>
-👨‍💻 About Fahim
-</h2>
-
+<h2>⭐ About Project</h2>
 
 <p>
 
-Data Engineer focused on building scalable pipelines,
-automation systems and analytics platforms.
+End-to-End ELT pipeline that extracts YouTube data,
+transforms information and provides analytics dashboard.
 
 </p>
 
@@ -462,19 +314,14 @@ automation systems and analytics platforms.
 
 
 
-
 <footer>
 
 🚀 Fahim Faysal Rabby
-
 <br>
-
-Data Engineer Portfolio | YouTube ELT Analytics
+Data Engineer Portfolio
 
 </footer>
 
 
-
 </body>
-
 </html>
