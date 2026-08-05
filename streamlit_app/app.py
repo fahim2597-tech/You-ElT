@@ -6,17 +6,16 @@ import os
 
 
 st.set_page_config(
-    page_title="YouTube ELT Dashboard",
+    page_title="DSE Stock Dashboard",
     layout="wide"
 )
 
 
 DB_HOST = os.getenv("DB_HOST", "postgres")
 DB_PORT = os.getenv("DB_PORT", "5432")
-DB_NAME = os.getenv("DB_NAME", "elt_db")
+DB_NAME = os.getenv("DB_NAME", "stock_tracker")
 DB_USER = os.getenv("DB_USER", "airflow")
 DB_PASSWORD = os.getenv("DB_PASSWORD", "airflow")
-DB_SSLMODE = os.getenv("DB_SSLMODE", "require")
 
 
 def get_data():
@@ -26,21 +25,23 @@ def get_data():
         port=DB_PORT,
         database=DB_NAME,
         user=DB_USER,
-        password=DB_PASSWORD,
-        sslmode=DB_SSLMODE
+        password=DB_PASSWORD
     )
+
 
     query = """
     SELECT
-        video_id,
-        video_title,
-        upload_date,
-        video_views,
-        likes_count,
-        comments_count
-    FROM core.yt_api
-    ORDER BY video_views DESC
+        symbol,
+        date,
+        open,
+        high,
+        low,
+        close,
+        volume
+    FROM stock_prices
+    ORDER BY date
     """
+
 
     df = pd.read_sql(query, conn)
 
@@ -49,7 +50,8 @@ def get_data():
     return df
 
 
-st.title("🚀 YouTube ELT Analytics Dashboard")
+
+st.title("📈 DSE Stock Market Dashboard")
 
 
 try:
@@ -57,38 +59,52 @@ try:
     df = get_data()
 
 
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
+
 
     col1.metric(
-        "Total Videos",
+        "Total Records",
         len(df)
     )
 
+
     col2.metric(
-        "Total Views",
-        f"{df.video_views.sum():,}"
+        "Stocks",
+        df.symbol.nunique()
     )
+
 
     col3.metric(
-        "Total Likes",
-        f"{df.likes_count.sum():,}"
+        "Latest Close",
+        round(df.close.iloc[-1],2)
     )
 
 
-    st.subheader("Top Videos")
-
-    st.dataframe(
-        df.head(20),
-        use_container_width=True
+    col4.metric(
+        "Volume",
+        f"{df.volume.iloc[-1]:,}"
     )
 
 
-    fig = px.bar(
-        df.head(10),
-        x="video_title",
-        y="video_views",
-        title="Top 10 Videos By Views"
+    st.subheader("Stock Price")
+
+
+    symbol = st.selectbox(
+        "Select Stock",
+        df.symbol.unique()
     )
+
+
+    stock=df[df.symbol==symbol]
+
+
+    fig=px.line(
+        stock,
+        x="date",
+        y="close",
+        title=f"{symbol} Closing Price"
+    )
+
 
     st.plotly_chart(
         fig,
@@ -96,8 +112,18 @@ try:
     )
 
 
+    st.subheader("Latest Data")
+
+
+    st.dataframe(
+        stock.tail(20),
+        use_container_width=True
+    )
+
+
 except Exception as e:
 
     st.error(
-        f"Database connection failed: {e}"
+        f"Database Error: {e}"
     )
+

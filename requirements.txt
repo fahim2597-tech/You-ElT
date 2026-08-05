@@ -5,3 +5,7 @@ psycopg2-binary
 soda-core-postgres
 google-api-python-client
 pendulum
+boto3
+apache-airflow-providers-amazon
+huggingface_hub
+huggingface_hub
